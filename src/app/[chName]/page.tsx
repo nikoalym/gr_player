@@ -1,6 +1,6 @@
 
 
-export default async function Page({ params }: { params: { chName: string } }) {
+export default async function Page({ params }: { params: Promise<{ chName: string }> }) {
   const chName = (await params).chName;
   return (
     <div>
