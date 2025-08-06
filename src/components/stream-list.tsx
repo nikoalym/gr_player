@@ -20,7 +20,7 @@ export default function StreamList(props: StreamListProps) {
                   ...channel,
                   url: channel.url.startsWith("http:")
                     ? channel.url.replace("http:", "https:")
-                    : `http://${channel.url}`,
+                    : channel.url,
                 })
               }
             >
