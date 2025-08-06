@@ -1,6 +1,5 @@
 "use client";
 
-
 interface StreamListProps {
   streams: ChStream[];
   setNowPlaying: (stream: ChStream) => void;
@@ -16,7 +15,14 @@ export default function StreamList(props: StreamListProps) {
           <div className="flex flex-col">
             <div
               className="p-2 rounded bg-gray-100"
-              onClick={() => setNowPlaying(channel)}
+              onClick={() =>
+                setNowPlaying({
+                  ...channel,
+                  url: channel.url.startsWith("http:")
+                    ? channel.url.replace("http:", "https:")
+                    : `http://${channel.url}`,
+                })
+              }
             >
               <img
                 src={channel.logo}
