@@ -2,7 +2,6 @@ import { mkdir, writeFile } from "fs/promises";
 import { NextResponse } from "next/server";
 import { join } from "path";
 import getStreams from "../../../lib/data/streams";
-import type { ChStream } from "../../../lib/types/stream";
 
 /**
  * Check if a single stream URL is available

@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import type { ChStream } from "../lib/types/stream";
 import StreamList from "./stream-list";
 import VideoJS from "./videojs";
 
