@@ -1,11 +1,16 @@
 import PlayerShell from "@/components/player-shell";
-import getStreams from "@/lib/data/streams";
-
+import { promises as fs } from "fs";
 export default async function Home() {
-  const streams = await getStreams();
+  const file = await fs.readFile(
+    process.cwd() + "/src/lib/data/streams.json",
+    "utf8"
+  );
+
+  const streamInfo = JSON.parse(file);
+
   return (
     <div className="flex">
-      <PlayerShell streams={streams} />
+      <PlayerShell streams={streamInfo.streams} />
     </div>
   );
 }
