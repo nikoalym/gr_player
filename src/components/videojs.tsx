@@ -5,7 +5,13 @@ import Player from "video.js/dist/types/player";
 import "video.js/dist/video-js.css";
 
 export default function VideoJS(props: {
-  options: { src?: string; autoplay?: boolean; liveUi?: true; controls?: true; fluid?: true };
+  options: {
+    src?: string;
+    autoplay?: boolean;
+    liveUi?: true;
+    controls?: true;
+    fluid?: true;
+  };
   onReady?: (player: Player) => void;
 }) {
   const videoRef = React.useRef<HTMLDivElement>(null);

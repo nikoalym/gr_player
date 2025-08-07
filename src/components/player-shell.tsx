@@ -13,8 +13,8 @@ export default function PlayerShell(props: PlayerShellProps) {
   const [nowPlaying, setNowPlaying] = useState<ChStream>();
 
   return (
-    <div className="flex flex-1 min-h-screen">
-      <div className="w-80 border-r h-screen overflow-y-auto p-2">
+    <div className="md:flex md:flex-row flex flex-col flex-1 min-h-screen">
+      <div className="md:border-r md:h-screen md:overflow-y-auto p-2 flex flex-col">
         <StreamStats streams={streams} nowPlaying={nowPlaying} />
         <StreamList streams={streams} setNowPlaying={setNowPlaying} />
       </div>

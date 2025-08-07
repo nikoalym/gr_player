@@ -10,11 +10,11 @@ export default function StreamList(props: StreamListProps) {
   const { streams, setNowPlaying } = props;
 
   return (
-    <>
+    <div className="flex md:flex md:flex-col gap-2 overflow-x-auto">
       {streams.map((channel) => (
-        <div key={channel.name} className="w-full max-w-3xl mb-2 flex flex-col">
+        <div key={channel.name} className="flex flex-col w-fit ">
           <div
-            className={`p-2 rounded relative cursor-pointer ${
+            className={`p-4 w-max rounded relative cursor-pointer ${
               channel.enabled === false
                 ? "bg-red-100 opacity-50 "
                 : channel.enabled === true
@@ -32,7 +32,7 @@ export default function StreamList(props: StreamListProps) {
             }}
           >
             {/* Status indicator */}
-            <div className="absolute top-2 right-2">
+            <div className="absolute top-1 right-1">
               {channel.enabled === true && (
                 <span
                   className="w-3 h-3 bg-green-500 rounded-full block"
@@ -70,6 +70,6 @@ export default function StreamList(props: StreamListProps) {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 }

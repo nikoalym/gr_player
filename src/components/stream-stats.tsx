@@ -13,37 +13,39 @@ export default function StreamStats(props: {
   ).length;
   const unknownCount = streams.length - enabledCount - disabledCount;
   return (
-    <div className="mb-4 p-3 bg-gray-700 rounded-lg text-sm">
-      <div className="font-semibold mb-2">Stream Status</div>
-      <div className="text-xs text-gray-400 mb-2">Updated: {lastUpdated}</div>
-      <div className="space-y-1">
+    <div className="mb-2 p-3 bg-gray-700 rounded-lg text-sm md:flex md:flex-col flex gap-3 items-center">
+      <div className="flex md:flex-col items-center gap-2">
+        <span className="font-normal ">Stream Status</span>
+        <span className="text-xs text-gray-400 ">
+          <span className="font-extrabold">{lastUpdated}</span>
+        </span>
+      </div>
+
+      <div className="flex md:flex-col gap-4">
         {nowPlaying && (
           <div className="flex items-center gap-2">
             <span className="font-medium">Now Playing:</span>{" "}
-            <span>{nowPlaying.name}</span>
+            <span className=" font-bold">{nowPlaying.name}</span>
           </div>
         )}
 
         {(enabledCount > 0 || disabledCount > 0) && (
-          <div className="mb-4  bg-gray-700 rounded-lg text-sm">
-            <div className="space-y-1">
+          <div className="bg-gray-700 rounded-lg text-sm ">
+            <div className="flex items-center gap-2">
               {enabledCount > 0 && (
-                <div className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-                  <span>Working: {enabledCount}</span>
-                </div>
+                <span>
+                  Working: <span className="font-bold">{enabledCount}</span>
+                </span>
               )}
               {disabledCount > 0 && (
-                <div className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-red-500 rounded-full"></span>
-                  <span>Broken: {disabledCount}</span>
-                </div>
+                <span>
+                  Broken: <span className="font-bold">{disabledCount}</span>
+                </span>
               )}
               {unknownCount > 0 && (
-                <div className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-gray-400 rounded-full"></span>
-                  <span>Untested: {unknownCount}</span>
-                </div>
+                <span>
+                  Untested: <span className="font-bold">{unknownCount}</span>
+                </span>
               )}
             </div>
           </div>
