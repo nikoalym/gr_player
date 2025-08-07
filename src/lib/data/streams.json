@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-08-06T18:51:32.271Z",
+  "lastUpdated": "2025-08-07T16:24:30.930Z",
   "totalStreams": 145,
-  "enabledStreams": 42,
+  "enabledStreams": 43,
   "streams": [
     {
       "name": "ALERT",
@@ -11,6 +11,11 @@
     {
       "name": "BOOBA",
       "url": "https://www.youtube.com/watch?v=sr-CPX8S2ts",
+      "enabled": true
+    },
+    {
+      "name": "CORFU CHANNEL",
+      "url": "https://itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8",
       "enabled": true
     },
     {
@@ -366,11 +371,6 @@
     {
       "name": "CHOICE",
       "url": "https://vod.streams.ovh:3528/stream/play.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "CORFU CHANNEL",
-      "url": "https://itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8",
       "enabled": false
     },
     {

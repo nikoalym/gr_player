@@ -1,17 +1,16 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import videojs from "video.js";
 import Player from "video.js/dist/types/player";
 import "video.js/dist/video-js.css";
 
 export default function VideoJS(props: {
-  options: { src?: string; autoplay?: boolean; liveUi?: true };
+  options: { src?: string; autoplay?: boolean; liveUi?: true; controls?: true; fluid?: true };
   onReady?: (player: Player) => void;
 }) {
   const videoRef = React.useRef<HTMLDivElement>(null);
   const playerRef = React.useRef<Player | null>(null);
   const { options, onReady } = props;
-  const [nowPlaying, setNowPlaying] = useState("");
 
   React.useEffect(() => {
     // Make sure Video.js player is only initialized once
@@ -25,6 +24,9 @@ export default function VideoJS(props: {
       }
 
       const player = (playerRef.current = videojs(videoElement, options, () => {
+        videoRef.current?.addEventListener("error", () => {
+          console.log("player error:", player.error());
+        });
         videojs.log("player is ready");
         onReady && onReady(player);
       }));
@@ -33,11 +35,14 @@ export default function VideoJS(props: {
       // on prop change, for example:
     } else {
       const player = playerRef.current;
+      player.el_.addEventListener("error", () => {
+        console.log("player error:", player.error());
+      });
 
       player.autoplay(options.autoplay || false);
-      player.src({ src: options.src , type: "application/x-mpegURL" });
+      player.src(options.src || "");
     }
-  }, [onReady, options, videoRef, nowPlaying]);
+  }, [onReady, options, videoRef]);
 
   // Dispose the Video.js player when the functional component unmounts
   React.useEffect(() => {
@@ -51,9 +56,5 @@ export default function VideoJS(props: {
     };
   }, [playerRef]);
 
-  return (
-    <>
-      <div ref={videoRef} />
-    </>
-  );
+  return <div ref={videoRef} />;
 }

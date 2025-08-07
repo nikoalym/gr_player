@@ -9,8 +9,8 @@ export default async function Home() {
   const streamInfo = JSON.parse(file);
 
   return (
-    <div className="flex">
+    <>
       <PlayerShell streams={streamInfo.streams} />
-    </div>
+    </>
   );
 }
