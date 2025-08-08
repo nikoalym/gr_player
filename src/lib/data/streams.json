@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-08-08T16:46:45.342Z",
+  "lastUpdated": "2025-08-08T17:02:46.307Z",
   "totalStreams": 145,
-  "enabledStreams": 42,
+  "enabledStreams": 34,
   "streams": [
     {
       "name": "ALERT",
@@ -39,48 +39,8 @@
       "enabled": true
     },
     {
-      "name": "ERT SPORTS",
-      "url": "http://ert-live-bcbs15228.siliconweb.com/media/ert_sports/ert_sports_3Mbps.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "ERT SPORTS 2",
-      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_sports_2/ert_sports_2_3Mbps.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "ERT SPORTS 3",
-      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_sports_3/ert_sports_3_3Mbps.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "ERT SPORTS 4",
-      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_sports_4/ert_sports_4_3Mbps.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "ERT SPORTS 5",
-      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_sports_5/ert_sports_5_3Mbps.m3u8",
-      "enabled": true
-    },
-    {
       "name": "ERT WORLD",
       "url": "http://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_worldmedium.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "ERT1 HD",
-      "url": "http://ert-live-bcbs15228.siliconweb.com/media/ert_1/ert_1_3Mbps.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "ERT2 HD",
-      "url": "http://ert-live-bcbs15228.siliconweb.com/media/ert_2/ert_2_3Mbps.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "ERT3 HD",
-      "url": "http://ert-live-bcbs15228.siliconweb.com/media/ert_3/ert_3_2Mbps.m3u8",
       "enabled": true
     },
     {
@@ -421,6 +381,46 @@
     {
       "name": "EPIRUS TV1",
       "url": "http://176.9.123.140:1935/radioepirus/radioepirus/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "ERT SPORTS",
+      "url": "http://ert-live-bcbs15228.siliconweb.com/media/ert_sports/ert_sports_3Mbps.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "ERT SPORTS 2",
+      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_sports_2/ert_sports_2_3Mbps.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "ERT SPORTS 3",
+      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_sports_3/ert_sports_3_3Mbps.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "ERT SPORTS 4",
+      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_sports_4/ert_sports_4_3Mbps.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "ERT SPORTS 5",
+      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_sports_5/ert_sports_5_3Mbps.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "ERT1 HD",
+      "url": "http://ert-live-bcbs15228.siliconweb.com/media/ert_1/ert_1_3Mbps.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "ERT2 HD",
+      "url": "http://ert-live-bcbs15228.siliconweb.com/media/ert_2/ert_2_3Mbps.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "ERT3 HD",
+      "url": "http://ert-live-bcbs15228.siliconweb.com/media/ert_3/ert_3_2Mbps.m3u8",
       "enabled": false
     },
     {
