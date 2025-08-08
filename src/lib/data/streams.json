@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-08-08T17:02:46.307Z",
+  "lastUpdated": "2025-08-08T17:17:04.135Z",
   "totalStreams": 145,
-  "enabledStreams": 34,
+  "enabledStreams": 31,
   "streams": [
     {
       "name": "ALERT",
@@ -41,16 +41,6 @@
     {
       "name": "ERT WORLD",
       "url": "http://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_worldmedium.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "FAROS TV",
-      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "FAROS TV2",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -131,11 +121,6 @@
     {
       "name": "SKAI HD",
       "url": "https://skai-live.siliconweb.com/media/cambria4/index.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "SMILE TV CY",
-      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
       "enabled": true
     },
     {
@@ -439,6 +424,16 @@
       "enabled": false
     },
     {
+      "name": "FAROS TV",
+      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "FAROS TV2",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "FLASH TV",
       "url": "http://127.0.0.1:88/https://www.twitch.tv/flashtvgr",
       "enabled": false
@@ -646,6 +641,11 @@
     {
       "name": "SAMIAKI TV",
       "url": "http://live.cast-control.eu:1935/samiaki/samiaki/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "SMILE TV CY",
+      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
       "enabled": false
     },
     {
