@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-08-07T16:24:30.930Z",
+  "lastUpdated": "2025-08-08T16:13:45.514Z",
   "totalStreams": 145,
-  "enabledStreams": 43,
+  "enabledStreams": 42,
   "streams": [
     {
       "name": "ALERT",
@@ -161,11 +161,6 @@
     {
       "name": "RIK SAT CY",
       "url": "http://l3.cloudskep.com/cybcsat/abr/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "SAMIAKI TV",
-      "url": "http://live.cast-control.eu:1935/samiaki/samiaki/playlist.m3u8",
       "enabled": true
     },
     {
@@ -646,6 +641,11 @@
     {
       "name": "RED MUSIC",
       "url": "https://live.streams.ovh:443/redmusic/redmusic/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "SAMIAKI TV",
+      "url": "http://live.cast-control.eu:1935/samiaki/samiaki/playlist.m3u8",
       "enabled": false
     },
     {

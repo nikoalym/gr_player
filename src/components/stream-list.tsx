@@ -10,7 +10,7 @@ export default function StreamList(props: StreamListProps) {
   const { streams, setNowPlaying } = props;
 
   return (
-    <div className="flex md:flex md:flex-col gap-2 overflow-x-auto">
+    <div className="flex md:flex md:flex-col gap-2 overflow-x-auto p-1">
       {streams.map((channel) => (
         <div key={channel.name} className="flex flex-col w-fit ">
           <div

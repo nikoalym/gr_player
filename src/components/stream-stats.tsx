@@ -3,7 +3,6 @@ export default function StreamStats(props: {
   nowPlaying?: ChStream;
 }) {
   const { streams, nowPlaying } = props;
-  const lastUpdated = new Date().toLocaleString();
 
   const enabledCount = streams.filter(
     (stream) => stream.enabled === true
@@ -13,24 +12,20 @@ export default function StreamStats(props: {
   ).length;
   const unknownCount = streams.length - enabledCount - disabledCount;
   return (
-    <div className="mb-2 p-3 bg-gray-700 rounded-lg text-sm md:flex md:flex-col flex gap-3 items-center">
-
-      <div className="flex md:flex-col items-center gap-2">
-        <span className="font-normal ">Stream Status:</span>
-        <span className="text-xs text-gray-400 ">
-          <span className="font-extrabold">{lastUpdated}</span>
-        </span>
+    <div className="mb-2 p-3 bg-gray-700 rounded-lg text-sm md:flex md:flex-col flex gap-3">
+      <div className="flex items-center gap-2">
+        <span className="font-extrabold ">GreekTV Player</span>
       </div>
 
-      {nowPlaying && (
-        <div className="flex items-center md:flex-col gap-2">
-          <span className="font-medium">Now Playing:</span>{" "}
+      <div className="flex items-center gap-2">
+        <span className="font-medium">Now Playing:</span>{" "}
+        {nowPlaying && (
           <span className="font-bold flex-1 w-full">{nowPlaying.name}</span>
-        </div>
-      )}
+        )}
+      </div>
 
       {(enabledCount > 0 || disabledCount > 0) && (
-        <div className="bg-gray-700 rounded-lg text-sm flex md:flex-col gap-2 items-center">
+        <div className="flex items-center gap-2">
           {enabledCount > 0 && (
             <span>
               Working: <span className="font-bold">{enabledCount}</span>
@@ -48,7 +43,6 @@ export default function StreamStats(props: {
           )}
         </div>
       )}
-
     </div>
   );
 }

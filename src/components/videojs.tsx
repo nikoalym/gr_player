@@ -8,7 +8,7 @@ export default function VideoJS(props: {
   options: {
     src?: string;
     autoplay?: boolean;
-    liveUi?: true;
+
     controls?: true;
     fluid?: true;
   };
@@ -30,9 +30,6 @@ export default function VideoJS(props: {
       }
 
       const player = (playerRef.current = videojs(videoElement, options, () => {
-        videoRef.current?.addEventListener("error", () => {
-          console.log("player error:", player.error());
-        });
         videojs.log("player is ready");
         onReady && onReady(player);
       }));
@@ -40,12 +37,15 @@ export default function VideoJS(props: {
       // You could update an existing player in the `else` block here
       // on prop change, for example:
     } else {
+      videojs.log("updating player options");
+
       const player = playerRef.current;
-      player.el_.addEventListener("error", () => {
+
+      videojs.on(player.el_, "error", () => {
+        
         console.log("player error:", player.error());
       });
 
-      player.autoplay(options.autoplay || false);
       player.src(options.src || "");
     }
   }, [onReady, options, videoRef]);
@@ -53,7 +53,7 @@ export default function VideoJS(props: {
   // Dispose the Video.js player when the functional component unmounts
   React.useEffect(() => {
     const player = playerRef.current;
-
+    console.log("disposing player on unmount");
     return () => {
       if (player && !player.isDisposed()) {
         player.dispose();
