@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-08-08T19:45:13.219Z",
-  "totalStreams": 91,
-  "enabledStreams": 19,
+  "lastUpdated": "2025-08-08T20:19:47.790Z",
+  "totalStreams": 86,
+  "enabledStreams": 16,
   "streams": [
     {
       "name": "ALERT",
@@ -21,16 +21,6 @@
     {
       "name": "EKKLHSIA TV HD",
       "url": "https://liveopen.siliconweb.com/openTvLive/openEcclessia/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "ERT SPORTS 4",
-      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_sports_4/ert_sports_4_3Mbps.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "ERT SPORTS 5",
-      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_sports_5/ert_sports_5_3Mbps.m3u8",
       "enabled": true
     },
     {
@@ -56,11 +46,6 @@
     {
       "name": "PELLA TV",
       "url": "https://video.streams.ovh:1936/pellatv/pellatv/master.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "PEMPTOUSIA TV",
-      "url": "https://www.youtube.com/watch?v=J5huAgZLpec",
       "enabled": true
     },
     {
@@ -221,16 +206,6 @@
     {
       "name": "ELLADA TV",
       "url": "https://castvideo.eu:3384/live/elladalive.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "ERT SPORTS 2",
-      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_sports_2/ert_sports_2_3Mbps.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "ERT SPORTS 3",
-      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_sports_3/ert_sports_3_3Mbps.m3u8",
       "enabled": false
     },
     {
