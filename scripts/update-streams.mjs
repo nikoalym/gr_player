@@ -145,10 +145,18 @@ async function generateStreamsFile(streams) {
   const channelsToRemove = [
     "BOOBA",
     "ERT NEWS",
+    "ERT SPORTS",
+    "ERT SPORTS 1",
+    "ERT SPORTS 2",
+    "ERT SPORTS 3",
+    "ERT SPORTS 4",
+    "ERT SPORTS 5",
+    "ERT SPORTS 6",
     "ERT WORLD",
     "FIGARO",
     "GROOVY",
     "MAD TV",
+    "PEMPTOUSIA TV",
   ];
 
   // Filter out unwanted channels and HTTP URLs
