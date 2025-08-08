@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "update-streams": "node scripts/update-streams.mjs"
   },
   "dependencies": {
     "next": "15.4.5",
