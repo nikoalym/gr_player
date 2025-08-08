@@ -144,20 +144,17 @@ async function generateStreamsFile(streams) {
   // List of channels to remove manually
   const channelsToRemove = [
     "BOOBA",
-    "ERT NEWS", 
+    "ERT NEWS",
     "ERT WORLD",
     "FIGARO",
     "GROOVY",
-    "MAD TV"
+    "MAD TV",
   ];
 
   // Filter out unwanted channels and convert HTTP to HTTPS
-  const filteredStreams = streams
-    .filter(stream => !channelsToRemove.includes(stream.name))
-    .map(stream => ({
-      ...stream,
-      url: stream.url.replace(/^http:\/\//, 'https://')
-    }));
+  const filteredStreams = streams.filter(
+    (stream) => !channelsToRemove.includes(stream.name)
+  );
 
   // Create simplified stream data
   const simpleStreams = filteredStreams.map((stream) => ({
@@ -216,15 +213,17 @@ async function main() {
     // Calculate stats (after filtering)
     const channelsToRemove = [
       "BOOBA",
-      "ERT NEWS", 
+      "ERT NEWS",
       "ERT WORLD",
       "FIGARO",
       "GROOVY",
-      "MAD TV"
+      "MAD TV",
     ];
-    
-    const filteredStreams = checkedStreams.filter(stream => !channelsToRemove.includes(stream.name));
-    
+
+    const filteredStreams = checkedStreams.filter(
+      (stream) => !channelsToRemove.includes(stream.name)
+    );
+
     const stats = {
       total: filteredStreams.length,
       enabled: filteredStreams.filter((s) => s.enabled).length,
