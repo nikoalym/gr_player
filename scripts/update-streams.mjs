@@ -151,10 +151,10 @@ async function generateStreamsFile(streams) {
     "MAD TV",
   ];
 
-  // Filter out unwanted channels and convert HTTP to HTTPS
-  const filteredStreams = streams.filter(
-    (stream) => !channelsToRemove.includes(stream.name)
-  );
+  // Filter out unwanted channels and HTTP URLs
+  const filteredStreams = streams
+    .filter((stream) => !channelsToRemove.includes(stream.name))
+    .filter((stream) => !stream.url.startsWith("http://"));
 
   // Create simplified stream data
   const simpleStreams = filteredStreams.map((stream) => ({
@@ -220,9 +220,9 @@ async function main() {
       "MAD TV",
     ];
 
-    const filteredStreams = checkedStreams.filter(
-      (stream) => !channelsToRemove.includes(stream.name)
-    );
+    const filteredStreams = checkedStreams
+      .filter((stream) => !channelsToRemove.includes(stream.name))
+      .filter((stream) => !stream.url.startsWith("http://"));
 
     const stats = {
       total: filteredStreams.length,
