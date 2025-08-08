@@ -3,20 +3,47 @@
 import { promises as fs } from "fs";
 import path from "path";
 
+// Configuration constants
+const CONFIG = {
+  M3U_URL: "https://raw.githubusercontent.com/free-greek-iptv/greek-iptv/beb997e089f6a8fd5b0d62251516f82dac392c3b/Greekstreamtv.m3u",
+  TIMEOUT_MS: 8000,
+  BATCH_SIZE: 3,
+  BATCH_DELAY_MS: 500,
+  USER_AGENT: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+  CHANNELS_TO_REMOVE: [
+    "BOOBA",
+    "ERT NEWS", 
+    "ERT SPORTS",
+    "ERT SPORTS 1",
+    "ERT SPORTS 2", 
+    "ERT SPORTS 3",
+    "ERT SPORTS 4",
+    "ERT SPORTS 5",
+    "ERT SPORTS 6",
+    "ERT WORLD",
+    "FIGARO",
+    "GROOVY", 
+    "MAD TV",
+    "PEMPTOUSIA TV",
+  ],
+  OUTPUT_PATH: path.join(process.cwd(), "src", "lib", "data", "streams.json"),
+};
+
 /**
  * Check if a single stream URL is available
+ * @param {string} url - The stream URL to check
+ * @returns {Promise<boolean>} - Whether the stream is available
  */
 async function checkStreamAvailability(url) {
   try {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 8000);
+    const timeoutId = setTimeout(() => controller.abort(), CONFIG.TIMEOUT_MS);
 
     const response = await fetch(url, {
       method: "HEAD",
       signal: controller.signal,
       headers: {
-        "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "User-Agent": CONFIG.USER_AGENT,
       },
     });
 
@@ -28,9 +55,12 @@ async function checkStreamAvailability(url) {
 }
 
 /**
- * Check multiple streams in batches
+ * Check multiple streams in batches to avoid overwhelming the servers
+ * @param {Array} streams - Array of stream objects to check
+ * @param {number} batchSize - Number of streams to check concurrently
+ * @returns {Promise<Array>} - Array of streams with enabled status
  */
-async function checkStreamsInBatches(streams, batchSize = 3) {
+async function checkStreamsInBatches(streams, batchSize = CONFIG.BATCH_SIZE) {
   const results = [];
 
   for (let i = 0; i < streams.length; i += batchSize) {
@@ -46,7 +76,7 @@ async function checkStreamsInBatches(streams, batchSize = 3) {
 
     // Small delay between batches to be respectful
     if (i + batchSize < streams.length) {
-      await new Promise((resolve) => setTimeout(resolve, 500));
+      await new Promise((resolve) => setTimeout(resolve, CONFIG.BATCH_DELAY_MS));
     }
   }
 
@@ -54,7 +84,9 @@ async function checkStreamsInBatches(streams, batchSize = 3) {
 }
 
 /**
- * Parse M3U content
+ * Parse M3U content into channel objects
+ * @param {string} content - The M3U file content
+ * @returns {Array} - Array of parsed channel objects
  */
 function parseM3U(content) {
   const lines = content
@@ -85,7 +117,10 @@ function parseM3U(content) {
 }
 
 /**
- * Parse EXTINF line
+ * Parse EXTINF line to extract channel information
+ * @param {string} extinf - The EXTINF line
+ * @param {string} url - The stream URL
+ * @returns {Object|null} - Parsed channel object or null if parsing fails
  */
 function parseEXTINF(extinf, url) {
   try {
@@ -122,48 +157,43 @@ function parseEXTINF(extinf, url) {
 
 /**
  * Fetch streams from the M3U source
+ * @returns {Promise<Array>} - Array of parsed stream objects
  */
-async function getStreams() {
+async function fetchStreams() {
   try {
-    const response = await fetch(
-      "https://raw.githubusercontent.com/free-greek-iptv/greek-iptv/beb997e089f6a8fd5b0d62251516f82dac392c3b/Greekstreamtv.m3u"
-    );
+    const response = await fetch(CONFIG.M3U_URL);
+    
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    
     const text = await response.text();
-
     return parseM3U(text);
   } catch (error) {
     console.error("Error fetching streams:", error);
-    return [];
+    throw error;
   }
 }
 
 /**
- * Generate streams JSON file
+ * Filter streams by removing unwanted channels and insecure URLs
+ * @param {Array} streams - Array of stream objects
+ * @returns {Array} - Filtered array of streams
  */
-async function generateStreamsFile(streams) {
-  // List of channels to remove manually
-  const channelsToRemove = [
-    "BOOBA",
-    "ERT NEWS",
-    "ERT SPORTS",
-    "ERT SPORTS 1",
-    "ERT SPORTS 2",
-    "ERT SPORTS 3",
-    "ERT SPORTS 4",
-    "ERT SPORTS 5",
-    "ERT SPORTS 6",
-    "ERT WORLD",
-    "FIGARO",
-    "GROOVY",
-    "MAD TV",
-    "PEMPTOUSIA TV",
-  ];
-
-  // Filter out unwanted channels and HTTP URLs
-  const filteredStreams = streams
-    .filter((stream) => !channelsToRemove.includes(stream.name))
+function filterStreams(streams) {
+  return streams
+    .filter((stream) => !CONFIG.CHANNELS_TO_REMOVE.includes(stream.name))
     .filter((stream) => !stream.url.startsWith("http://"));
+}
 
+/**
+ * Create simplified stream data and sort by availability
+ * @param {Array} streams - Array of stream objects with enabled status
+ * @returns {Array} - Simplified and sorted stream objects
+ */
+function processStreams(streams) {
+  const filteredStreams = filterStreams(streams);
+  
   // Create simplified stream data
   const simpleStreams = filteredStreams.map((stream) => ({
     name: stream.name,
@@ -179,69 +209,76 @@ async function generateStreamsFile(streams) {
     return a.name.localeCompare(b.name);
   });
 
+  return simpleStreams;
+}
+
+/**
+ * Generate and write the streams JSON file
+ * @param {Array} streams - Array of processed stream objects
+ * @returns {Promise<string>} - Path to the generated file
+ */
+async function writeStreamsFile(streams) {
   const fileContent = {
     lastUpdated: new Date().toISOString(),
-    totalStreams: filteredStreams.length,
-    enabledStreams: filteredStreams.filter((s) => s.enabled).length,
-    streams: simpleStreams,
+    totalStreams: streams.length,
+    enabledStreams: streams.filter((s) => s.enabled).length,
+    streams,
   };
 
   // Ensure directory exists
-  const dataDir = path.join(process.cwd(), "src", "lib", "data");
+  const dataDir = path.dirname(CONFIG.OUTPUT_PATH);
   await fs.mkdir(dataDir, { recursive: true });
 
   // Write streams.json file
-  const filePath = path.join(dataDir, "streams.json");
-  await fs.writeFile(filePath, JSON.stringify(fileContent, null, 2), "utf-8");
+  await fs.writeFile(CONFIG.OUTPUT_PATH, JSON.stringify(fileContent, null, 2), "utf-8");
 
-  console.log(`Generated streams file: ${filePath}`);
-  return filePath;
+  console.log(`Generated streams file: ${CONFIG.OUTPUT_PATH}`);
+  return CONFIG.OUTPUT_PATH;
 }
 
+/**
+ * Calculate and display statistics about the streams
+ * @param {Array} streams - Array of processed stream objects
+ */
+function displayStats(streams) {
+  const stats = {
+    total: streams.length,
+    enabled: streams.filter((s) => s.enabled).length,
+    disabled: streams.filter((s) => !s.enabled).length,
+  };
+
+  console.log(`Complete! ${stats.enabled}/${stats.total} streams available`);
+  console.log(`Enabled percentage: ${Math.round((stats.enabled / stats.total) * 100)}%`);
+}
+
+/**
+ * Main function to orchestrate the stream update process
+ */
 async function main() {
   try {
     console.log("Fetching and checking streams...");
 
     // Fetch streams from source
-    const rawStreams = await getStreams();
+    const rawStreams = await fetchStreams();
 
     if (!rawStreams.length) {
-      console.error("No streams found");
-      process.exit(1);
+      throw new Error("No streams found");
     }
 
     console.log(`Checking ${rawStreams.length} streams...`);
 
     // Check stream availability
-    const checkedStreams = await checkStreamsInBatches(rawStreams, 3);
+    const checkedStreams = await checkStreamsInBatches(rawStreams);
+
+    // Process and filter streams
+    const processedStreams = processStreams(checkedStreams);
 
     // Generate the JSON file
-    await generateStreamsFile(checkedStreams);
+    await writeStreamsFile(processedStreams);
 
-    // Calculate stats (after filtering)
-    const channelsToRemove = [
-      "BOOBA",
-      "ERT NEWS",
-      "ERT WORLD",
-      "FIGARO",
-      "GROOVY",
-      "MAD TV",
-    ];
-
-    const filteredStreams = checkedStreams
-      .filter((stream) => !channelsToRemove.includes(stream.name))
-      .filter((stream) => !stream.url.startsWith("http://"));
-
-    const stats = {
-      total: filteredStreams.length,
-      enabled: filteredStreams.filter((s) => s.enabled).length,
-      disabled: filteredStreams.filter((s) => !s.enabled).length,
-    };
-
-    console.log(`Complete! ${stats.enabled}/${stats.total} streams available`);
-    console.log(
-      `Enabled percentage: ${Math.round((stats.enabled / stats.total) * 100)}%`
-    );
+    // Display statistics
+    displayStats(processedStreams);
+    
   } catch (error) {
     console.error("Error updating streams:", error);
     process.exit(1);
