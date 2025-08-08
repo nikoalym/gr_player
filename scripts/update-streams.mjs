@@ -141,8 +141,26 @@ async function getStreams() {
  * Generate streams JSON file
  */
 async function generateStreamsFile(streams) {
+  // List of channels to remove manually
+  const channelsToRemove = [
+    "BOOBA",
+    "ERT NEWS", 
+    "ERT WORLD",
+    "FIGARO",
+    "GROOVY",
+    "MAD TV"
+  ];
+
+  // Filter out unwanted channels and convert HTTP to HTTPS
+  const filteredStreams = streams
+    .filter(stream => !channelsToRemove.includes(stream.name))
+    .map(stream => ({
+      ...stream,
+      url: stream.url.replace(/^http:\/\//, 'https://')
+    }));
+
   // Create simplified stream data
-  const simpleStreams = streams.map((stream) => ({
+  const simpleStreams = filteredStreams.map((stream) => ({
     name: stream.name,
     url: stream.url,
     enabled: stream.enabled ?? false,
@@ -158,8 +176,8 @@ async function generateStreamsFile(streams) {
 
   const fileContent = {
     lastUpdated: new Date().toISOString(),
-    totalStreams: streams.length,
-    enabledStreams: streams.filter((s) => s.enabled).length,
+    totalStreams: filteredStreams.length,
+    enabledStreams: filteredStreams.filter((s) => s.enabled).length,
     streams: simpleStreams,
   };
 
@@ -195,11 +213,22 @@ async function main() {
     // Generate the JSON file
     await generateStreamsFile(checkedStreams);
 
-    // Calculate stats
+    // Calculate stats (after filtering)
+    const channelsToRemove = [
+      "BOOBA",
+      "ERT NEWS", 
+      "ERT WORLD",
+      "FIGARO",
+      "GROOVY",
+      "MAD TV"
+    ];
+    
+    const filteredStreams = checkedStreams.filter(stream => !channelsToRemove.includes(stream.name));
+    
     const stats = {
-      total: checkedStreams.length,
-      enabled: checkedStreams.filter((s) => s.enabled).length,
-      disabled: checkedStreams.filter((s) => !s.enabled).length,
+      total: filteredStreams.length,
+      enabled: filteredStreams.filter((s) => s.enabled).length,
+      disabled: filteredStreams.filter((s) => !s.enabled).length,
     };
 
     console.log(`Complete! ${stats.enabled}/${stats.total} streams available`);
