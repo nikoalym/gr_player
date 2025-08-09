@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-08-08T19:45:13.219Z",
-  "totalStreams": 91,
+  "lastUpdated": "2025-08-09T06:12:19.813Z",
+  "totalStreams": 86,
   "enabledStreams": 19,
   "streams": [
     {
@@ -24,13 +24,13 @@
       "enabled": true
     },
     {
-      "name": "ERT SPORTS 4",
-      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_sports_4/ert_sports_4_3Mbps.m3u8",
+      "name": "FAROS TV",
+      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
       "enabled": true
     },
     {
-      "name": "ERT SPORTS 5",
-      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_sports_5/ert_sports_5_3Mbps.m3u8",
+      "name": "FAROS TV2",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -59,11 +59,6 @@
       "enabled": true
     },
     {
-      "name": "PEMPTOUSIA TV",
-      "url": "https://www.youtube.com/watch?v=J5huAgZLpec",
-      "enabled": true
-    },
-    {
       "name": "SIGMA CY",
       "url": "https://sl2.sigmatv.com/hls/live.m3u8",
       "enabled": true
@@ -71,6 +66,11 @@
     {
       "name": "SKAI HD",
       "url": "https://skai-live.siliconweb.com/media/cambria4/index.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "SMILE TV CY",
+      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
       "enabled": true
     },
     {
@@ -224,16 +224,6 @@
       "enabled": false
     },
     {
-      "name": "ERT SPORTS 2",
-      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_sports_2/ert_sports_2_3Mbps.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "ERT SPORTS 3",
-      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_sports_3/ert_sports_3_3Mbps.m3u8",
-      "enabled": false
-    },
-    {
       "name": "ERTA LEX TV",
       "url": "https://vdo.alphaserver.gr:3824/hybrid/play.m3u8",
       "enabled": false
@@ -246,16 +236,6 @@
     {
       "name": "EURONEWS",
       "url": "https://www.dailymotion.com/embed/video/x2j7kha#tab_embed.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "FAROS TV",
-      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "FAROS TV2",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": false
     },
     {
@@ -386,11 +366,6 @@
     {
       "name": "RED MUSIC",
       "url": "https://live.streams.ovh:443/redmusic/redmusic/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "SMILE TV CY",
-      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
       "enabled": false
     },
     {
