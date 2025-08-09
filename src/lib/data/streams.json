@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-08-08T20:19:47.790Z",
+  "lastUpdated": "2025-08-09T06:12:19.813Z",
   "totalStreams": 86,
-  "enabledStreams": 16,
+  "enabledStreams": 19,
   "streams": [
     {
       "name": "ALERT",
@@ -21,6 +21,16 @@
     {
       "name": "EKKLHSIA TV HD",
       "url": "https://liveopen.siliconweb.com/openTvLive/openEcclessia/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "FAROS TV",
+      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "FAROS TV2",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -56,6 +66,11 @@
     {
       "name": "SKAI HD",
       "url": "https://skai-live.siliconweb.com/media/cambria4/index.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "SMILE TV CY",
+      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
       "enabled": true
     },
     {
@@ -224,16 +239,6 @@
       "enabled": false
     },
     {
-      "name": "FAROS TV",
-      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "FAROS TV2",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
-      "enabled": false
-    },
-    {
       "name": "GALAXY GR",
       "url": "https://channel.streams.ovh:1936/galaxygr-1/galaxygr-1/playlist.m3u8",
       "enabled": false
@@ -361,11 +366,6 @@
     {
       "name": "RED MUSIC",
       "url": "https://live.streams.ovh:443/redmusic/redmusic/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "SMILE TV CY",
-      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
       "enabled": false
     },
     {
