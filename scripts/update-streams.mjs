@@ -5,7 +5,7 @@ import path from "path";
 
 // Configuration constants
 const CONFIG = {
-  M3U_URL: "https://raw.githubusercontent.com/free-greek-iptv/greek-iptv/beb997e089f6a8fd5b0d62251516f82dac392c3b/Greekstreamtv.m3u",
+  M3U_URL: "https://github.com/iptv-org/iptv/blob/master/streams/gr.m3u",
   TIMEOUT_MS: 8000,
   BATCH_SIZE: 3,
   BATCH_DELAY_MS: 500,
