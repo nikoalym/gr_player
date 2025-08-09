@@ -1,436 +1,466 @@
 {
-  "lastUpdated": "2025-08-09T06:12:19.813Z",
-  "totalStreams": 86,
-  "enabledStreams": 19,
+  "lastUpdated": "2025-08-09T20:02:29.970Z",
+  "totalStreams": 92,
+  "enabledStreams": 36,
   "streams": [
     {
-      "name": "ALERT",
+      "name": "Acheloos TV (576p)",
+      "url": "https://acheloostv.streamings.gr/live/stream/index.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Alert (576p) [Not 24/7]",
       "url": "https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8",
       "enabled": true
     },
     {
-      "name": "CORFU CHANNEL",
+      "name": "ART TV",
+      "url": "https://rtmp.win:3696/live/arttvgrlive.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Baraza TV Deep House (720p)",
+      "url": "https://rtmp.streams.ovh:1936/barazarelax/barazazararelax/barazarelax/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Baraza TV Relaxing (720p)",
+      "url": "https://rtmp.streams.ovh:1936/barazarelax/barazarelax/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Blue Sky TV (720p)",
+      "url": "https://cdn5.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Corfu Channel (576p) [Not 24/7]",
       "url": "https://itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8",
       "enabled": true
     },
     {
-      "name": "EGNATIA TV",
-      "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "EKKLHSIA TV HD",
-      "url": "https://liveopen.siliconweb.com/openTvLive/openEcclessia/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "FAROS TV",
-      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "FAROS TV2",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "HELLENIC TV",
-      "url": "https://l5.cloudskep.com/hellenictv/htv/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "IONIAN CHANNEL",
-      "url": "https://stream.ioniantv.gr/ionian/live_abr/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "NEA TV",
-      "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "NRG TV",
-      "url": "https://5c389faa13be3.streamlock.net:9553/onweb/live/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "PELLA TV",
-      "url": "https://video.streams.ovh:1936/pellatv/pellatv/master.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "SIGMA CY",
-      "url": "https://sl2.sigmatv.com/hls/live.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "SKAI HD",
-      "url": "https://skai-live.siliconweb.com/media/cambria4/index.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "SMILE TV CY",
-      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "STAR HD",
-      "url": "https://livestar.siliconweb.com/media/star1/star1mediumhd.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "START TV",
-      "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "TV DIPSO",
+      "name": "Dipso TV (720p) [Not 24/7]",
       "url": "https://live.cast-control.eu/ekpdipso/ekpdipso/playlist.m3u8",
       "enabled": true
     },
     {
-      "name": "VOULI TV2",
-      "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv2_640_640x360/index.m3u8",
+      "name": "Ecclesia TV (1080p)",
+      "url": "https://liveopen.siliconweb.com/openTvLive/openEcclessia/playlist.m3u8",
       "enabled": true
     },
     {
-      "name": "VOULI TV3",
-      "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv3_4/index.m3u8",
+      "name": "Egnatia TV (576p)",
+      "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
       "enabled": true
     },
     {
-      "name": "34100 TV",
-      "url": "https://s1.cystream.net/live/34100/playlist.m3u8",
-      "enabled": false
+      "name": "ERT World (720p)",
+      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
+      "enabled": true
     },
     {
-      "name": "ACTION 24",
-      "url": "https://www.dailymotion.com/embed/video/x61fbhs#tab_embed.m3u8",
-      "enabled": false
+      "name": "FORMedia TV (1080p)",
+      "url": "https://svs.itworkscdn.net/formediatvlive/formediatv.smil/playlist.m3u8",
+      "enabled": true
     },
     {
-      "name": "AEOLOS TV",
+      "name": "Gnomi TV (1080p)",
+      "url": "https://live.streams.ovh:8081/gnomitv/index.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Hellenic TV (720p) [Not 24/7]",
+      "url": "https://l5.cloudskep.com/hellenictv/htv/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Ionian Channel (720p) [Not 24/7]",
+      "url": "https://stream.ioniantv.gr/ionian/live_abr/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Kontra Channel (1080p)",
+      "url": "https://kontralive.siliconweb.com/live/kontratv/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Lychnos TV (1080p)",
+      "url": "https://thor.mental-media.gr:19360/imp/imp.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Nea TV (720p)",
+      "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Nea TV (720p)",
+      "url": "https://live.neatv.gr:8888/hls/neatv_high/index.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Netmax TV (720p)",
+      "url": "https://live.netmaxtv.com:1936/live/live/chunklist_w1671867540.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Notioi TV (1080p)",
+      "url": "https://srv.streamserver.gr:3451/stream/play.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "NRG TV (720p)",
+      "url": "https://5c389faa13be3.streamlock.net:9553/onweb/live/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "One Channel (1080p) [Geo-blocked]",
+      "url": "https://onechannel.siliconweb.com/one/stream/chunks.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Panik TV (1080p)",
+      "url": "https://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Pella TV (576p) [Not 24/7]",
+      "url": "https://video.streams.ovh:1936/pellatv/pellatv/master.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Pemptousia TV (1080p) [Not 24/7]",
+      "url": "https://svs.itworkscdn.net/pemptousialive/pemptousia.smil/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "STAR International (720p)",
+      "url": "https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Start TV (480p)",
+      "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Syros TV1 (720p)",
+      "url": "https://eco.streams.ovh:1936/syrostv1/syrostv1/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Telekriti (720p) [Not 24/7]",
+      "url": "https://neon.streams.gr:8081/telekriti/index.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Tilemousiki",
+      "url": "https://live20.bozztv.com/akamaissh101/ssh101/tilemousiki/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "TV Creta (540p) [Not 24/7]",
+      "url": "https://live.streams.ovh/tvcreta/tvcreta/chunklist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Βουλή Τηλεόραση (360p) [Not 24/7]",
+      "url": "https://streamer-cache.grnet.gr/parliament/parltv.sdp/master.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Βουλή Τηλεόραση (540p) [Not 24/7]",
+      "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Βουλή Τηλεόραση 2 (540p) [Not 24/7]",
+      "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv2.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Βουλή Τηλεόραση 3 (540p) [Not 24/7]",
+      "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv3.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Aeolos TV (1080p)",
       "url": "https://cdn.istoikona.com/aeolostv/live/playlist.m3u8",
       "enabled": false
     },
     {
-      "name": "ALFA SPORT CY",
-      "url": "https://dev.aftermind.xyz/edge-hls/unitrust/alfasports/index.m3u8?token=8TXWzhY3h6jrzqEqu",
+      "name": "Alfa Dramas (226p) [Not 24/7]",
+      "url": "https://www.hellasnet.tv/rest2.live.hn/w2r.alf/playlist.m3u8",
       "enabled": false
     },
     {
-      "name": "ALITEIA TV",
-      "url": "https://vdo.alphaserver.gr:3062/hybrid/play.m3u8",
+      "name": "APT (1080p)",
+      "url": "https://hugh.cdn.rumble.cloud/live/k5e12sb4/slot-82/fdd0-tbln/chunklist_DVR.m3u8",
       "enabled": false
     },
     {
-      "name": "ALPHA HD",
-      "url": "https://alphalive-i.akamaihd.net/hls/live/682300/live/master.m3u8",
+      "name": "Astra TV (480p) [Not 24/7]",
+      "url": "https://ssh101.bozztv.com/ssh101/astratv/playlist.m3u8",
       "enabled": false
     },
     {
-      "name": "ANT1 HD",
-      "url": "https://antennaamdnoenc.akamaized.net/ant1_akamai/abr/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "ARGOLIDA TV",
-      "url": "https://livetv.streams.ovh:1936/argolidatv/argolidatv/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "ATTICA TV",
-      "url": "https://e-e.cyou:8222/atticatv/atticatv/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "BANANA TV",
-      "url": "https://web.onair-radio.eu/bananachannel/bananachannel/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "BARAZA TV",
-      "url": "https://panik.cast-control.eu:1936/Admin_1/Admin_1/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "BARAZA TV HD",
-      "url": "https://eco.streams.ovh:443/BarazaTV/BarazaTV/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "BARAZA TV HD Dance Μusic",
-      "url": "https://eco.streams.ovh:443/BarazaClassic/BarazaClassic/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "BARAZA TV HD Greek Hits",
+      "name": "Baraza TV (1080p)",
       "url": "https://eco.streams.ovh/BarazaTV/BarazarazaTV/BarazaTV/playlist.m3u8",
       "enabled": false
     },
     {
-      "name": "BCI 24 NEWS",
-      "url": "https://live.streams.ovh/netmedia/netmedia/playlist.m3u8",
+      "name": "Baraza TV (1080p) [Geo-blocked]",
+      "url": "https://panik.cast-control.eu:1936/Admin_1/Admin_1/playlist.m3u8",
       "enabled": false
     },
     {
-      "name": "BEST TV",
-      "url": "https://stream.net7.gr/hls/best/index.m3u8",
+      "name": "Baraza TV Greek Music Hits (1080p)",
+      "url": "https://eco.streams.ovh/BarazaTV/BarazaTV/playlist.m3u8",
       "enabled": false
     },
     {
-      "name": "BLUE SKY",
-      "url": "https://www.dailymotion.com/embed/video/x7z731p#tab_embed.m3u8",
+      "name": "BCI 24 News (720p)",
+      "url": "https://eu1.vectromdigital.com:1936/bci24news/bci24news/playlist.m3u8",
       "enabled": false
     },
     {
-      "name": "CBC TV MALL CY",
-      "url": "https://s1.cystream.net/live/tvmall/playlist.m3u8",
+      "name": "Blue Sky TV (576p)",
+      "url": "https://cdn1.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8",
       "enabled": false
     },
     {
-      "name": "CHANNEL 9",
-      "url": "https://e-e.cyou:8222/channel9/channel9/playlist.m3u8",
+      "name": "Center TV (1080p) [Not 24/7]",
+      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/centertv.m3u8",
       "enabled": false
     },
     {
-      "name": "CHOICE",
+      "name": "Choice (1080p) [Not 24/7]",
       "url": "https://vod.streams.ovh:3528/stream/play.m3u8",
       "enabled": false
     },
     {
-      "name": "DIAVATA TV HD",
-      "url": "https://video.streams.ovh:1936/DiavataTV/DiavataTV/playlist.m3u8",
+      "name": "Diavata TV (720p)",
+      "url": "https://ssh101.bozztv.com/ssh101/diavatatvweb/playlist.m3u8",
       "enabled": false
     },
     {
-      "name": "DIGITAL TV CY",
-      "url": "https://l8.cloudskep.com/digital/dtv/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "DIKTYO 1",
-      "url": "https://www.hellasnet.tv/rest.live.hn/diktyo1r/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "DIKTYO TV",
+      "name": "Diktyo TV (576p)",
       "url": "https://5d00db0e0fcd5.streamlock.net/7322/7322/playlist.m3u8",
       "enabled": false
     },
     {
-      "name": "ELLADA TV",
-      "url": "https://castvideo.eu:3384/live/elladalive.m3u8",
+      "name": "Ellinikos FM (720p)",
+      "url": "https://til.pp.ua:3093/live/ellinikosfmlive.m3u8",
       "enabled": false
     },
     {
-      "name": "ERTA LEX TV",
-      "url": "https://vdo.alphaserver.gr:3824/hybrid/play.m3u8",
+      "name": "ENA Channel (576p)",
+      "url": "https://storemusic.top:8222/enachannel/enachannel/enachannel/playlist.m3u8",
       "enabled": false
     },
     {
-      "name": "ETV",
-      "url": "https://channel.streams.ovh:1936/epsilontv/epsilontv/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "EURONEWS",
-      "url": "https://www.dailymotion.com/embed/video/x2j7kha#tab_embed.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "GALAXY GR",
-      "url": "https://channel.streams.ovh:1936/galaxygr-1/galaxygr-1/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "GRD CHANNEL",
-      "url": "https://live.cast-control.eu:443/organismos/organismos/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "GREECE TV",
-      "url": "https://2-fss-1.streamhoster.com/pl_122/203374-1931760-1/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "GREEK CINEMA",
-      "url": "https://vdo.alphaserver.gr:3613/hybrid/play.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "GREEK TV LONDON",
-      "url": "https://vdo3.alphaserver.gr:3466/live/greektvlondonlive.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "HORSE RACES",
-      "url": "https://odiehls-i.akamaihd.net/hls/live/233406/odie3/odie_1000.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "IRIDA TV",
-      "url": "https://www.hellasnet.tv/rest.live.hn/ws.iri/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "LEPANTO",
-      "url": "https://video1.getstreamhosting.com:1936/8234/8234/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "LIVE TV",
-      "url": "https://vod.streams.ovh:3829/stream/play.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "M.TV",
-      "url": "https://antennaamdnoenc.akamaized.net/maktv_akamai/abr/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "MAGIC TV",
-      "url": "https://itv.streams.ovh/magictv/magictv/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "MARON TV",
-      "url": "https://vdo.streamhost.gr:3499/live/marontvlive.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "MEGA HD",
-      "url": "https://streamcdnm17-c98db5952cb54b358365984178fb898a.msvdn.net/live/S86713049/gonOwuUacAxM/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "MESSATIDA TV",
-      "url": "https://vod.streams.ovh:3037/stream/play.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "MGR TV",
-      "url": "https://vod.streams.ovh:3876/stream/play.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "MUSIC TV",
-      "url": "https://bit.ly/3ozXFfK",
-      "enabled": false
-    },
-    {
-      "name": "MY RADIO TV",
-      "url": "https://vdo.alphaserver.gr:3305/hybrid/play.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "NG TV",
-      "url": "https://live.streams.ovh/NGradio/NGradio/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "NOTIOI TV",
-      "url": "https://live.streams.ovh/YourStreaming/YourStreaming/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "ONE TV HD",
-      "url": "https://streaming.onetv.gr/show/onetv_hd720/index.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "OPEN TV HD",
-      "url": "https://liveopencloud.siliconweb.com/1/ZlRza2R6L2tFRnFJ/eWVLSlQx/hls/live/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "ORT TV",
-      "url": "https://odb.streamhost.gr:3395/live/orttvlive.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "PANIK TV",
-      "url": "https://panik.cast-control.eu:1936/paniktv/paniktv//playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "PLP",
-      "url": "https://www.hellasnet.tv/rest.live.hn/ws.plp/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "RADIO EPISTROFI",
-      "url": "https://s1.cystream.net/live/epistrofi/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "RED MUSIC",
-      "url": "https://live.streams.ovh:443/redmusic/redmusic/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "STAR K.E.",
-      "url": "https://www.dailymotion.com/embed/video/xqjey2#tab_embed.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "SUPER B",
-      "url": "https://til.pp.ua:3424/live/superblive.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "SUPER CHANNEL HD",
-      "url": "https://vdo.alphaserver.gr:3587/hybrid/play.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "SYROS TV1",
-      "url": "https://odb.streamhost.gr:3454/live/syrostv1live.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "THRAKINET",
-      "url": "https://cdn.onestreaming.com/thrakinettv/thrakinettv/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "TILE EPILOGES",
+      "name": "Epiloges TV (480p)",
       "url": "https://5d00db0e0fcd5.streamlock.net/7170/7170/playlist.m3u8",
       "enabled": false
     },
     {
-      "name": "TOP CHANNEL",
-      "url": "https://s2.netmax-host.eu:2053/topchannel/topchannel/playlist.m3u8",
+      "name": "Epirus TV1 (1080p)",
+      "url": "https://til.pp.ua:3928/live/epiruslive.m3u8",
       "enabled": false
     },
     {
-      "name": "TRT TV",
-      "url": "https://www.hellasnet.tv/rest.live.hn/trt2/playlist.m3u8",
+      "name": "Epsilon TV (720p)",
+      "url": "https://channel.streams.ovh:1936/epsilontv/epsilontv/playlist.m3u8",
       "enabled": false
     },
     {
-      "name": "TV 100",
+      "name": "ERT News (1080p)",
+      "url": "https://cbd537474fbad4634b64787657ff6456.msvdn.net/news/ert_news_main/mainabr/playlist_dvr.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "ERT World (1080p)",
+      "url": "https://cbd537474fbad4634b64787657ff6456.msvdn.net/ertworld/ert_world_main/mainabr/playlist_dvr.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Extacy TV",
+      "url": "https://fr.crystalweb.net:1936/extacytv/extacytv/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Faros TV (540p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Flash TV (720p) [Not 24/7]",
+      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/FlashTV.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Galaxy (432p) [Geo-blocked]",
+      "url": "https://ssh101.bozztv.com/ssh101/galaxygr/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Gnomi TV (720p)",
+      "url": "https://channel.streams.ovh:1936/gnomitv/gnomitv/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Greek TV London (720p) [Not 24/7]",
+      "url": "https://vdo3.alphaserver.gr:3466/live/greektvlondonlive.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Greek TV London (720p) [Not 24/7]",
+      "url": "https://vdo3.alphaserver.gr:3466/stream/play.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Irida TV",
+      "url": "https://www.hellasnet.tv/rest2.live.hn/w2r.iri/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Irida TV (226p) [Not 24/7]",
+      "url": "https://www.hellasnet.tv/rest.live.hn/w2r.iri/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Lepanto TV (1080p) [Not 24/7]",
+      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/LePanto.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Mad World (720p)",
+      "url": "https://ellastvmax.better-than.tv/freetv/madworldtv/index.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Magic TV (480p)",
+      "url": "https://itv.streams.ovh/magictv/magictv/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Mesogeios TV (404p)",
+      "url": "https://til.pp.ua:3872/live/mesogeiostvlive.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Messatida TV (450p) [Not 24/7]",
+      "url": "https://vod.streams.ovh:3037/stream/play.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "MGR TV (1080p) [Not 24/7]",
+      "url": "https://vod.streams.ovh:3876/stream/play.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Naftemporiki TV (1080p)",
+      "url": "https://naftemporiki-live.cdn.vustreams.com/live/a4b4a88a-681c-4a2d-8e74-33daa5f2cb61/live.isml/.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "NG (720p)",
+      "url": "https://live.streams.ovh/NGradio/NGradio/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "NS TV (720p) [Not 24/7]",
+      "url": "https://til.pp.ua:3262/live/nstv7live.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "ORT (480p) [Not 24/7]",
+      "url": "https://eu1.vectromdigital.com:1936/ort/ort/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "PLP",
+      "url": "https://www.hellasnet.tv/rest2.live.hn/w2r.plp/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "PLP (226p) [Not 24/7]",
+      "url": "https://www.hellasnet.tv/rest.live.hn/w2r.plp/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Prime News TV (720p)",
+      "url": "https://vdo.alphaserver.gr:3411/stream/play.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Real Music TV (720p)",
+      "url": "https://livetv.streams.ovh:1936/realmusictv/realmusictv/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "RedMusic (720p)",
+      "url": "https://eu1.vectromdigital.com:1936/redmusic/redmusic/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Smile TV (360p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Star Kentrikis Elladas (1080p)",
+      "url": "https://telmacosa.s.llnwi.net/starcgr/default/index.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Thessalia TV (720p) [Not 24/7]",
+      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/thessaliatv.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Thraki Net TV (1080p)",
+      "url": "https://cdn.onestreaming.com/thrakinettv/thrakinettv/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "TRT (360p)",
+      "url": "https://www.hellasnet.tv/rest2.live.hn/u2r.trt/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "TV 100 (576p) [Not 24/7]",
       "url": "https://live.fm100.gr/hls/tv100/index.m3u8",
       "enabled": false
     },
     {
-      "name": "TV RODOPI",
-      "url": "https://odb.streamhost.gr:3337/live/tvrodopilive.m3u8",
+      "name": "TV Kosmos (576p) [Not 24/7]",
+      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/tvkosmosgr.m3u8",
       "enabled": false
     },
     {
-      "name": "VOULI TV CY",
-      "url": "https://dev.aftermind.xyz/upstream/unitrust-webplayer/ZKYZntAds9QTjud/20957.m3u8",
+      "name": "TV Rodopi (720p) [Not 24/7]",
+      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/TVRodopi.m3u8",
       "enabled": false
     },
     {
-      "name": "XALASTRA TV",
-      "url": "https://live.cast-control.eu:443/xalastratv/xalastratv/playlist.m3u8",
+      "name": "Vergina TV (1080p)",
+      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/verginachannel.m3u8",
       "enabled": false
     },
     {
-      "name": "ZOUGLA TV",
-      "url": "https://zouglalive-lh.akamaihd.net/i/zouglalive_1@340792/master.m3u8",
+      "name": "Xalastra TV (480p)",
+      "url": "https://live.cast-control.eu/xalastratv/xalastratv/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Zougla TV (720p)",
+      "url": "https://zouglacam-mdc-secure.akamaized.net/zouglalive/main/playlist.m3u8",
       "enabled": false
     }
   ]
