@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-08-09T20:02:29.970Z",
+  "lastUpdated": "2025-08-10T06:12:03.703Z",
   "totalStreams": 92,
-  "enabledStreams": 36,
+  "enabledStreams": 35,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -31,11 +31,6 @@
     {
       "name": "Blue Sky TV (720p)",
       "url": "https://cdn5.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Corfu Channel (576p) [Not 24/7]",
-      "url": "https://itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8",
       "enabled": true
     },
     {
@@ -236,6 +231,11 @@
     {
       "name": "Choice (1080p) [Not 24/7]",
       "url": "https://vod.streams.ovh:3528/stream/play.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Corfu Channel (576p) [Not 24/7]",
+      "url": "https://itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8",
       "enabled": false
     },
     {
