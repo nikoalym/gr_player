@@ -10,22 +10,7 @@ const CONFIG = {
   BATCH_SIZE: 3,
   BATCH_DELAY_MS: 500,
   USER_AGENT: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-  CHANNELS_TO_REMOVE: [
-    "BOOBA",
-    "ERT NEWS", 
-    "ERT SPORTS",
-    "ERT SPORTS 1",
-    "ERT SPORTS 2", 
-    "ERT SPORTS 3",
-    "ERT SPORTS 4",
-    "ERT SPORTS 5",
-    "ERT SPORTS 6",
-    "ERT WORLD",
-    "FIGARO",
-    "GROOVY", 
-    "MAD TV",
-    "PEMPTOUSIA TV",
-  ],
+  CHANNELS_TO_REMOVE: [],
   OUTPUT_PATH: path.join(process.cwd(), "src", "lib", "data", "streams.json"),
 };
 
@@ -162,11 +147,11 @@ function parseEXTINF(extinf, url) {
 async function fetchStreams() {
   try {
     const response = await fetch(CONFIG.M3U_URL);
-    
+
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-    
+
     const text = await response.text();
     return parseM3U(text);
   } catch (error) {
@@ -183,7 +168,7 @@ async function fetchStreams() {
 function filterStreams(streams) {
   return streams
     .filter((stream) => !CONFIG.CHANNELS_TO_REMOVE.includes(stream.name))
-    .filter((stream) => !stream.url.startsWith("http://"));
+    
 }
 
 /**
@@ -193,7 +178,7 @@ function filterStreams(streams) {
  */
 function processStreams(streams) {
   const filteredStreams = filterStreams(streams);
-  
+
   // Create simplified stream data
   const simpleStreams = filteredStreams.map((stream) => ({
     name: stream.name,
