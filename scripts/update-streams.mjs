@@ -5,7 +5,8 @@ import path from "path";
 
 // Configuration constants
 const CONFIG = {
-  M3U_URL: "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/gr.m3u",
+  M3U_URL:
+    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/gr.m3u",
   TIMEOUT_MS: 8000,
   BATCH_SIZE: 3,
   BATCH_DELAY_MS: 500,
@@ -61,7 +62,9 @@ async function checkStreamsInBatches(streams, batchSize = CONFIG.BATCH_SIZE) {
 
     // Small delay between batches to be respectful
     if (i + batchSize < streams.length) {
-      await new Promise((resolve) => setTimeout(resolve, CONFIG.BATCH_DELAY_MS));
+      await new Promise((resolve) =>
+        setTimeout(resolve, CONFIG.BATCH_DELAY_MS)
+      );
     }
   }
 
@@ -161,6 +164,39 @@ async function fetchStreams() {
 }
 
 /**
+ * Remove duplicate streams based on URL and name
+ * @param {Array} streams - Array of stream objects
+ * @returns {Array} - Deduplicated array of streams
+ */
+function removeDuplicates(streams) {
+  const seen = new Set();
+  const seenNames = new Set();
+  const unique = [];
+
+  for (const stream of streams) {
+    // Create a unique key based on URL (primary) and name (secondary)
+    const urlKey = stream.url.toLowerCase().trim();
+    const nameKey = stream.name.toLowerCase().trim();
+    
+    // Skip if we've seen this exact URL before
+    if (seen.has(urlKey)) {
+      continue;
+    }
+    
+    // Skip if we've seen this exact name before (likely duplicate channel)
+    if (seenNames.has(nameKey)) {
+      continue;
+    }
+    
+    seen.add(urlKey);
+    seenNames.add(nameKey);
+    unique.push(stream);
+  }
+
+  return unique;
+}
+
+/**
  * Filter streams by removing unwanted channels and insecure URLs
  * @param {Array} streams - Array of stream objects
  * @returns {Array} - Filtered array of streams
@@ -168,7 +204,7 @@ async function fetchStreams() {
 function filterStreams(streams) {
   return streams
     .filter((stream) => !CONFIG.CHANNELS_TO_REMOVE.includes(stream.name))
-    
+    .filter((stream) => !stream.url.startsWith("http://"));
 }
 
 /**
@@ -177,7 +213,11 @@ function filterStreams(streams) {
  * @returns {Array} - Simplified and sorted stream objects
  */
 function processStreams(streams) {
-  const filteredStreams = filterStreams(streams);
+  // Remove duplicates first
+  const uniqueStreams = removeDuplicates(streams);
+  
+  // Then filter unwanted channels and insecure URLs
+  const filteredStreams = filterStreams(uniqueStreams);
 
   // Create simplified stream data
   const simpleStreams = filteredStreams.map((stream) => ({
@@ -215,7 +255,11 @@ async function writeStreamsFile(streams) {
   await fs.mkdir(dataDir, { recursive: true });
 
   // Write streams.json file
-  await fs.writeFile(CONFIG.OUTPUT_PATH, JSON.stringify(fileContent, null, 2), "utf-8");
+  await fs.writeFile(
+    CONFIG.OUTPUT_PATH,
+    JSON.stringify(fileContent, null, 2),
+    "utf-8"
+  );
 
   console.log(`Generated streams file: ${CONFIG.OUTPUT_PATH}`);
   return CONFIG.OUTPUT_PATH;
@@ -233,7 +277,9 @@ function displayStats(streams) {
   };
 
   console.log(`Complete! ${stats.enabled}/${stats.total} streams available`);
-  console.log(`Enabled percentage: ${Math.round((stats.enabled / stats.total) * 100)}%`);
+  console.log(
+    `Enabled percentage: ${Math.round((stats.enabled / stats.total) * 100)}%`
+  );
 }
 
 /**
@@ -250,20 +296,21 @@ async function main() {
       throw new Error("No streams found");
     }
 
-    console.log(`Checking ${rawStreams.length} streams...`);
+    console.log(`Found ${rawStreams.length} streams from source`);
 
     // Check stream availability
     const checkedStreams = await checkStreamsInBatches(rawStreams);
 
-    // Process and filter streams
+    // Process and filter streams (includes deduplication)
     const processedStreams = processStreams(checkedStreams);
+
+    console.log(`After deduplication and filtering: ${processedStreams.length} streams`);
 
     // Generate the JSON file
     await writeStreamsFile(processedStreams);
 
     // Display statistics
     displayStats(processedStreams);
-    
   } catch (error) {
     console.error("Error updating streams:", error);
     process.exit(1);

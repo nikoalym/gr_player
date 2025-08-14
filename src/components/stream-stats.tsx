@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function StreamStats(props: {
   streams: ChStream[];
   nowPlaying?: ChStream;
@@ -14,6 +16,13 @@ export default function StreamStats(props: {
   return (
     <div className="mb-2 p-3 bg-gray-700 rounded-lg text-sm md:flex md:flex-col flex gap-3">
       <div className="flex items-center gap-2">
+        <Image
+          src="/favicon.ico"
+          width={20}
+          height={20}
+          alt="GreekTV Player"
+          className=" "
+        />
         <span className="font-extrabold ">GreekTV Player</span>
       </div>
 
