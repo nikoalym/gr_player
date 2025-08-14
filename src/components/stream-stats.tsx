@@ -23,7 +23,7 @@ export default function StreamStats(props: {
           alt="GreekTV Player"
           className=" "
         />
-        <span className="font-extrabold ">GreekTV Player</span>
+        <span className="font-extrabold ">Greek IPTV online</span>
       </div>
 
       <div className="flex items-center gap-2">

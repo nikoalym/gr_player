@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -13,8 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Greek IPTV Player",
-  description: "Watch Greek TV channels online",
+  title: "Greek IPTV Online",
+  description:
+    "Βρες όλα τα αγαπημένα σου ελληνικά κανάλια IPTV online σε ένα μέρος! Εύκολη πρόσβαση, όπου κι αν βρίσκεσαι.",
 };
 
 export default function RootLayout({
@@ -28,6 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
