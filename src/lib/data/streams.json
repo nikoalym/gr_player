@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-08-16T06:11:33.956Z",
+  "lastUpdated": "2025-08-17T06:11:52.890Z",
   "totalStreams": 89,
-  "enabledStreams": 37,
+  "enabledStreams": 35,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -31,11 +31,6 @@
     {
       "name": "Blue Sky TV (720p)",
       "url": "https://cdn5.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Corfu Channel (576p) [Not 24/7]",
-      "url": "https://itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8",
       "enabled": true
     },
     {
@@ -86,11 +81,6 @@
     {
       "name": "Kontra Channel (1080p)",
       "url": "https://kontralive.siliconweb.com/live/kontratv/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Lychnos TV (1080p)",
-      "url": "https://thor.mental-media.gr:19360/imp/imp.m3u8",
       "enabled": true
     },
     {
@@ -244,6 +234,11 @@
       "enabled": false
     },
     {
+      "name": "Corfu Channel (576p) [Not 24/7]",
+      "url": "https://itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "Diavata TV (720p)",
       "url": "https://ssh101.bozztv.com/ssh101/diavatatvweb/playlist.m3u8",
       "enabled": false
@@ -326,6 +321,11 @@
     {
       "name": "Lepanto TV (1080p) [Not 24/7]",
       "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/LePanto.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Lychnos TV (1080p)",
+      "url": "https://thor.mental-media.gr:19360/imp/imp.m3u8",
       "enabled": false
     },
     {
