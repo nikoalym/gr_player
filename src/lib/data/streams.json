@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-22T06:13:18.177Z",
+  "lastUpdated": "2025-08-23T06:10:57.430Z",
   "totalStreams": 88,
   "enabledStreams": 34,
   "streams": [
@@ -34,11 +34,6 @@
       "enabled": true
     },
     {
-      "name": "Corfu Channel (576p) [Not 24/7]",
-      "url": "https://itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8",
-      "enabled": true
-    },
-    {
       "name": "Ecclesia TV (1080p)",
       "url": "https://liveopen.siliconweb.com/openTvLive/openEcclessia/playlist.m3u8",
       "enabled": true
@@ -51,6 +46,16 @@
     {
       "name": "ERT World (720p)",
       "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Faros TV (540p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -79,11 +84,6 @@
       "enabled": true
     },
     {
-      "name": "Lychnos TV (1080p)",
-      "url": "https://thor.mental-media.gr:19360/imp/imp.m3u8",
-      "enabled": true
-    },
-    {
       "name": "Nea TV (720p)",
       "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
       "enabled": true
@@ -96,11 +96,6 @@
     {
       "name": "Notioi TV (1080p)",
       "url": "https://srv.streamserver.gr:3451/stream/play.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "NRG TV (720p)",
-      "url": "https://5c389faa13be3.streamlock.net:9553/onweb/live/playlist.m3u8",
       "enabled": true
     },
     {
@@ -121,6 +116,11 @@
     {
       "name": "Pemptousia TV (1080p) [Not 24/7]",
       "url": "https://svs.itworkscdn.net/pemptousialive/pemptousia.smil/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Smile TV (360p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
       "enabled": true
     },
     {
@@ -229,6 +229,11 @@
       "enabled": false
     },
     {
+      "name": "Corfu Channel (576p) [Not 24/7]",
+      "url": "https://itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "Diavata TV (720p)",
       "url": "https://ssh101.bozztv.com/ssh101/diavatatvweb/playlist.m3u8",
       "enabled": false
@@ -279,16 +284,6 @@
       "enabled": false
     },
     {
-      "name": "Faros TV (540p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Flash TV (720p) [Not 24/7]",
       "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/FlashTV.m3u8",
       "enabled": false
@@ -324,6 +319,11 @@
       "enabled": false
     },
     {
+      "name": "Lychnos TV (1080p)",
+      "url": "https://thor.mental-media.gr:19360/imp/imp.m3u8",
+      "enabled": false
+    },
+    {
       "name": "Mad World (720p)",
       "url": "https://ellastvmax.better-than.tv/freetv/madworldtv/index.m3u8",
       "enabled": false
@@ -351,6 +351,11 @@
     {
       "name": "NG (720p)",
       "url": "https://live.streams.ovh/NGradio/NGradio/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "NRG TV (720p)",
+      "url": "https://5c389faa13be3.streamlock.net:9553/onweb/live/playlist.m3u8",
       "enabled": false
     },
     {
@@ -386,11 +391,6 @@
     {
       "name": "RedMusic (720p)",
       "url": "https://eu1.vectromdigital.com:1936/redmusic/redmusic/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Smile TV (360p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
       "enabled": false
     },
     {
