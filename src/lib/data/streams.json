@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-24T06:11:52.137Z",
+  "lastUpdated": "2025-08-25T06:39:51.876Z",
   "totalStreams": 88,
   "enabledStreams": 34,
   "streams": [
@@ -34,16 +34,6 @@
       "enabled": true
     },
     {
-      "name": "Corfu Channel (576p) [Not 24/7]",
-      "url": "https://itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Ecclesia TV (1080p)",
-      "url": "https://liveopen.siliconweb.com/openTvLive/openEcclessia/playlist.m3u8",
-      "enabled": true
-    },
-    {
       "name": "Egnatia TV (576p)",
       "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
       "enabled": true
@@ -51,6 +41,16 @@
     {
       "name": "ERT World (720p)",
       "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Faros TV (540p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -124,6 +124,11 @@
       "enabled": true
     },
     {
+      "name": "Smile TV (360p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
+      "enabled": true
+    },
+    {
       "name": "STAR International (720p)",
       "url": "https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8",
       "enabled": true
@@ -136,11 +141,6 @@
     {
       "name": "Syros TV1 (720p)",
       "url": "https://eco.streams.ovh:1936/syrostv1/syrostv1/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Telekriti (720p) [Not 24/7]",
-      "url": "https://neon.streams.gr:8081/telekriti/index.m3u8",
       "enabled": true
     },
     {
@@ -229,6 +229,11 @@
       "enabled": false
     },
     {
+      "name": "Corfu Channel (576p) [Not 24/7]",
+      "url": "https://itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "Diavata TV (720p)",
       "url": "https://ssh101.bozztv.com/ssh101/diavatatvweb/playlist.m3u8",
       "enabled": false
@@ -241,6 +246,11 @@
     {
       "name": "Dipso TV (720p) [Not 24/7]",
       "url": "https://live.cast-control.eu/ekpdipso/ekpdipso/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Ecclesia TV (1080p)",
+      "url": "https://liveopen.siliconweb.com/openTvLive/openEcclessia/playlist.m3u8",
       "enabled": false
     },
     {
@@ -276,16 +286,6 @@
     {
       "name": "Extacy TV",
       "url": "https://fr.crystalweb.net:1936/extacytv/extacytv/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Faros TV (540p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": false
     },
     {
@@ -389,13 +389,13 @@
       "enabled": false
     },
     {
-      "name": "Smile TV (360p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
+      "name": "Star Kentrikis Elladas (1080p)",
+      "url": "https://telmacosa.s.llnwi.net/starcgr/default/index.m3u8",
       "enabled": false
     },
     {
-      "name": "Star Kentrikis Elladas (1080p)",
-      "url": "https://telmacosa.s.llnwi.net/starcgr/default/index.m3u8",
+      "name": "Telekriti (720p) [Not 24/7]",
+      "url": "https://neon.streams.gr:8081/telekriti/index.m3u8",
       "enabled": false
     },
     {
