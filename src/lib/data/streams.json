@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-09-02T06:13:04.604Z",
+  "lastUpdated": "2025-09-03T06:12:32.355Z",
   "totalStreams": 88,
-  "enabledStreams": 36,
+  "enabledStreams": 34,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -41,11 +41,6 @@
     {
       "name": "Ecclesia TV (1080p)",
       "url": "https://liveopen.siliconweb.com/openTvLive/openEcclessia/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Egnatia TV (576p)",
-      "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
       "enabled": true
     },
     {
@@ -109,6 +104,11 @@
       "enabled": true
     },
     {
+      "name": "NRG TV (720p)",
+      "url": "https://5c389faa13be3.streamlock.net:9553/onweb/live/playlist.m3u8",
+      "enabled": true
+    },
+    {
       "name": "One Channel (1080p) [Geo-blocked]",
       "url": "https://onechannel.siliconweb.com/one/stream/chunks.m3u8",
       "enabled": true
@@ -116,11 +116,6 @@
     {
       "name": "Panik TV (1080p)",
       "url": "https://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Pella TV (576p) [Not 24/7]",
-      "url": "https://video.streams.ovh:1936/pellatv/pellatv/master.m3u8",
       "enabled": true
     },
     {
@@ -166,11 +161,6 @@
     {
       "name": "Βουλή Τηλεόραση (360p) [Not 24/7]",
       "url": "https://streamer-cache.grnet.gr/parliament/parltv.sdp/master.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Βουλή Τηλεόραση (540p) [Not 24/7]",
-      "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv.m3u8",
       "enabled": true
     },
     {
@@ -251,6 +241,11 @@
     {
       "name": "Dipso TV (720p) [Not 24/7]",
       "url": "https://live.cast-control.eu/ekpdipso/ekpdipso/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Egnatia TV (576p)",
+      "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
       "enabled": false
     },
     {
@@ -354,11 +349,6 @@
       "enabled": false
     },
     {
-      "name": "NRG TV (720p)",
-      "url": "https://5c389faa13be3.streamlock.net:9553/onweb/live/playlist.m3u8",
-      "enabled": false
-    },
-    {
       "name": "NS TV (720p) [Not 24/7]",
       "url": "https://til.pp.ua:3262/live/nstv7live.m3u8",
       "enabled": false
@@ -366,6 +356,11 @@
     {
       "name": "ORT (480p) [Not 24/7]",
       "url": "https://eu1.vectromdigital.com:1936/ort/ort/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Pella TV (576p) [Not 24/7]",
+      "url": "https://video.streams.ovh:1936/pellatv/pellatv/master.m3u8",
       "enabled": false
     },
     {
@@ -441,6 +436,11 @@
     {
       "name": "Zougla TV (720p)",
       "url": "https://zouglacam-mdc-secure.akamaized.net/zouglalive/main/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Βουλή Τηλεόραση (540p) [Not 24/7]",
+      "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv.m3u8",
       "enabled": false
     }
   ]
