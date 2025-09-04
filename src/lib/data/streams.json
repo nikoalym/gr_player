@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-09-03T06:12:32.355Z",
+  "lastUpdated": "2025-09-04T06:12:57.329Z",
   "totalStreams": 88,
-  "enabledStreams": 34,
+  "enabledStreams": 33,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -44,18 +44,13 @@
       "enabled": true
     },
     {
+      "name": "Egnatia TV (576p)",
+      "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
+      "enabled": true
+    },
+    {
       "name": "ERT World (720p)",
       "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Faros TV (540p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -119,13 +114,13 @@
       "enabled": true
     },
     {
-      "name": "Pemptousia TV (1080p) [Not 24/7]",
-      "url": "https://svs.itworkscdn.net/pemptousialive/pemptousia.smil/playlist.m3u8",
+      "name": "Pella TV (576p) [Not 24/7]",
+      "url": "https://video.streams.ovh:1936/pellatv/pellatv/master.m3u8",
       "enabled": true
     },
     {
-      "name": "Smile TV (360p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
+      "name": "Pemptousia TV (1080p) [Not 24/7]",
+      "url": "https://svs.itworkscdn.net/pemptousialive/pemptousia.smil/playlist.m3u8",
       "enabled": true
     },
     {
@@ -244,11 +239,6 @@
       "enabled": false
     },
     {
-      "name": "Egnatia TV (576p)",
-      "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Ellinikos FM (720p)",
       "url": "https://til.pp.ua:3093/live/ellinikosfmlive.m3u8",
       "enabled": false
@@ -281,6 +271,16 @@
     {
       "name": "Extacy TV",
       "url": "https://fr.crystalweb.net:1936/extacytv/extacytv/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Faros TV (540p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": false
     },
     {
@@ -359,11 +359,6 @@
       "enabled": false
     },
     {
-      "name": "Pella TV (576p) [Not 24/7]",
-      "url": "https://video.streams.ovh:1936/pellatv/pellatv/master.m3u8",
-      "enabled": false
-    },
-    {
       "name": "PLP",
       "url": "https://www.hellasnet.tv/rest2.live.hn/w2r.plp/playlist.m3u8",
       "enabled": false
@@ -386,6 +381,11 @@
     {
       "name": "RedMusic (720p)",
       "url": "https://eu1.vectromdigital.com:1936/redmusic/redmusic/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Smile TV (360p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
       "enabled": false
     },
     {
