@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-09-05T06:12:58.338Z",
+  "lastUpdated": "2025-09-06T06:10:52.202Z",
   "totalStreams": 88,
-  "enabledStreams": 35,
+  "enabledStreams": 32,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -51,16 +51,6 @@
     {
       "name": "ERT World (720p)",
       "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Faros TV (540p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -126,11 +116,6 @@
     {
       "name": "Pemptousia TV (1080p) [Not 24/7]",
       "url": "https://svs.itworkscdn.net/pemptousialive/pemptousia.smil/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Smile TV (360p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
       "enabled": true
     },
     {
@@ -284,6 +269,16 @@
       "enabled": false
     },
     {
+      "name": "Faros TV (540p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "Flash TV (720p) [Not 24/7]",
       "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/FlashTV.m3u8",
       "enabled": false
@@ -386,6 +381,11 @@
     {
       "name": "RedMusic (720p)",
       "url": "https://eu1.vectromdigital.com:1936/redmusic/redmusic/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Smile TV (360p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
       "enabled": false
     },
     {
