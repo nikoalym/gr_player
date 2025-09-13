@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-09-12T06:13:12.643Z",
+  "lastUpdated": "2025-09-13T06:11:08.011Z",
   "totalStreams": 88,
-  "enabledStreams": 32,
+  "enabledStreams": 33,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -56,16 +56,6 @@
     {
       "name": "ERT World (720p)",
       "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Faros TV (540p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -134,13 +124,13 @@
       "enabled": true
     },
     {
-      "name": "Smile TV (360p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
+      "name": "STAR International (720p)",
+      "url": "https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8",
       "enabled": true
     },
     {
-      "name": "STAR International (720p)",
-      "url": "https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8",
+      "name": "Start TV (480p)",
+      "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
       "enabled": true
     },
     {
@@ -161,6 +151,21 @@
     {
       "name": "TV Creta (540p) [Not 24/7]",
       "url": "https://live.streams.ovh/tvcreta/tvcreta/chunklist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Βουλή Τηλεόραση (360p) [Not 24/7]",
+      "url": "https://streamer-cache.grnet.gr/parliament/parltv.sdp/master.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Βουλή Τηλεόραση 2 (540p) [Not 24/7]",
+      "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv2.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Βουλή Τηλεόραση 3 (540p) [Not 24/7]",
+      "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv3.m3u8",
       "enabled": true
     },
     {
@@ -261,6 +266,16 @@
     {
       "name": "Extacy TV",
       "url": "https://fr.crystalweb.net:1936/extacytv/extacytv/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Faros TV (540p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": false
     },
     {
@@ -369,13 +384,13 @@
       "enabled": false
     },
     {
-      "name": "Star Kentrikis Elladas (1080p)",
-      "url": "https://telmacosa.s.llnwi.net/starcgr/default/index.m3u8",
+      "name": "Smile TV (360p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
       "enabled": false
     },
     {
-      "name": "Start TV (480p)",
-      "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
+      "name": "Star Kentrikis Elladas (1080p)",
+      "url": "https://telmacosa.s.llnwi.net/starcgr/default/index.m3u8",
       "enabled": false
     },
     {
@@ -424,23 +439,8 @@
       "enabled": false
     },
     {
-      "name": "Βουλή Τηλεόραση (360p) [Not 24/7]",
-      "url": "https://streamer-cache.grnet.gr/parliament/parltv.sdp/master.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Βουλή Τηλεόραση (540p) [Not 24/7]",
       "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Βουλή Τηλεόραση 2 (540p) [Not 24/7]",
-      "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv2.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Βουλή Τηλεόραση 3 (540p) [Not 24/7]",
-      "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv3.m3u8",
       "enabled": false
     }
   ]
