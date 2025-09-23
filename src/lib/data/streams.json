@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-09-21T06:11:58.101Z",
+  "lastUpdated": "2025-09-23T06:13:43.431Z",
   "totalStreams": 88,
-  "enabledStreams": 33,
+  "enabledStreams": 32,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -86,11 +86,6 @@
     {
       "name": "Lychnos TV (1080p)",
       "url": "https://thor.mental-media.gr:19360/imp/imp.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Nea TV (720p)",
-      "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
       "enabled": true
     },
     {
@@ -336,6 +331,11 @@
     {
       "name": "Naftemporiki TV (1080p)",
       "url": "https://naftemporiki-live.cdn.vustreams.com/live/a4b4a88a-681c-4a2d-8e74-33daa5f2cb61/live.isml/.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Nea TV (720p)",
+      "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
       "enabled": false
     },
     {
