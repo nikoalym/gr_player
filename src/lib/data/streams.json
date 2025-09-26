@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-09-25T06:37:43.412Z",
+  "lastUpdated": "2025-09-26T06:36:45.103Z",
   "totalStreams": 88,
-  "enabledStreams": 32,
+  "enabledStreams": 33,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -81,6 +81,11 @@
     {
       "name": "Kontra Channel (1080p)",
       "url": "https://kontralive.siliconweb.com/live/kontratv/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Lychnos TV (1080p)",
+      "url": "https://thor.mental-media.gr:19360/imp/imp.m3u8",
       "enabled": true
     },
     {
@@ -306,11 +311,6 @@
     {
       "name": "Lepanto TV (1080p) [Not 24/7]",
       "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/LePanto.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Lychnos TV (1080p)",
-      "url": "https://thor.mental-media.gr:19360/imp/imp.m3u8",
       "enabled": false
     },
     {
