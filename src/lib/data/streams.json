@@ -1,16 +1,11 @@
 {
-  "lastUpdated": "2025-10-05T06:11:25.384Z",
+  "lastUpdated": "2025-10-06T06:13:23.896Z",
   "totalStreams": 88,
-  "enabledStreams": 32,
+  "enabledStreams": 33,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
       "url": "https://acheloostv.streamings.gr/live/stream/index.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Alert (576p) [Not 24/7]",
-      "url": "https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8",
       "enabled": true
     },
     {
@@ -39,11 +34,6 @@
       "enabled": true
     },
     {
-      "name": "Dipso TV (720p) [Not 24/7]",
-      "url": "https://live.cast-control.eu/ekpdipso/ekpdipso/playlist.m3u8",
-      "enabled": true
-    },
-    {
       "name": "Ecclesia TV (1080p)",
       "url": "https://liveopen.siliconweb.com/openTvLive/openEcclessia/playlist.m3u8",
       "enabled": true
@@ -56,6 +46,16 @@
     {
       "name": "ERT World (720p)",
       "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Faros TV (540p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -124,6 +124,11 @@
       "enabled": true
     },
     {
+      "name": "Smile TV (360p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
+      "enabled": true
+    },
+    {
       "name": "STAR International (720p)",
       "url": "https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8",
       "enabled": true
@@ -166,6 +171,11 @@
     {
       "name": "Aeolos TV (1080p)",
       "url": "https://cdn.istoikona.com/aeolostv/live/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Alert (576p) [Not 24/7]",
+      "url": "https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8",
       "enabled": false
     },
     {
@@ -229,6 +239,11 @@
       "enabled": false
     },
     {
+      "name": "Dipso TV (720p) [Not 24/7]",
+      "url": "https://live.cast-control.eu/ekpdipso/ekpdipso/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "Ellinikos FM (720p)",
       "url": "https://til.pp.ua:3093/live/ellinikosfmlive.m3u8",
       "enabled": false
@@ -261,16 +276,6 @@
     {
       "name": "Extacy TV",
       "url": "https://fr.crystalweb.net:1936/extacytv/extacytv/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Faros TV (540p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": false
     },
     {
@@ -376,11 +381,6 @@
     {
       "name": "RedMusic (720p)",
       "url": "https://eu1.vectromdigital.com:1936/redmusic/redmusic/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Smile TV (360p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
       "enabled": false
     },
     {
