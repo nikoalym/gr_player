@@ -1,11 +1,16 @@
 {
-  "lastUpdated": "2025-10-06T06:13:23.896Z",
+  "lastUpdated": "2025-10-07T06:13:02.919Z",
   "totalStreams": 88,
-  "enabledStreams": 33,
+  "enabledStreams": 35,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
       "url": "https://acheloostv.streamings.gr/live/stream/index.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Alert (576p) [Not 24/7]",
+      "url": "https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8",
       "enabled": true
     },
     {
@@ -134,6 +139,11 @@
       "enabled": true
     },
     {
+      "name": "Start TV (480p)",
+      "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
+      "enabled": true
+    },
+    {
       "name": "Syros TV1 (720p)",
       "url": "https://eco.streams.ovh:1936/syrostv1/syrostv1/playlist.m3u8",
       "enabled": true
@@ -171,11 +181,6 @@
     {
       "name": "Aeolos TV (1080p)",
       "url": "https://cdn.istoikona.com/aeolostv/live/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Alert (576p) [Not 24/7]",
-      "url": "https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8",
       "enabled": false
     },
     {
@@ -386,11 +391,6 @@
     {
       "name": "Star Kentrikis Elladas (1080p)",
       "url": "https://telmacosa.s.llnwi.net/starcgr/default/index.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Start TV (480p)",
-      "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
       "enabled": false
     },
     {
