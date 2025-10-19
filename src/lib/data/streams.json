@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-10-18T06:11:37.769Z",
+  "lastUpdated": "2025-10-19T06:12:04.191Z",
   "totalStreams": 88,
-  "enabledStreams": 34,
+  "enabledStreams": 33,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -31,6 +31,11 @@
     {
       "name": "Blue Sky TV (720p)",
       "url": "https://cdn5.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Dipso TV (720p) [Not 24/7]",
+      "url": "https://live.cast-control.eu/ekpdipso/ekpdipso/playlist.m3u8",
       "enabled": true
     },
     {
@@ -114,11 +119,6 @@
       "enabled": true
     },
     {
-      "name": "Pella TV (576p) [Not 24/7]",
-      "url": "https://video.streams.ovh:1936/pellatv/pellatv/master.m3u8",
-      "enabled": true
-    },
-    {
       "name": "Pemptousia TV (1080p) [Not 24/7]",
       "url": "https://svs.itworkscdn.net/pemptousialive/pemptousia.smil/playlist.m3u8",
       "enabled": true
@@ -131,11 +131,6 @@
     {
       "name": "STAR International (720p)",
       "url": "https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Start TV (480p)",
-      "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
       "enabled": true
     },
     {
@@ -241,11 +236,6 @@
     {
       "name": "Diktyo TV (576p)",
       "url": "https://5d00db0e0fcd5.streamlock.net/7322/7322/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Dipso TV (720p) [Not 24/7]",
-      "url": "https://live.cast-control.eu/ekpdipso/ekpdipso/playlist.m3u8",
       "enabled": false
     },
     {
@@ -364,6 +354,11 @@
       "enabled": false
     },
     {
+      "name": "Pella TV (576p) [Not 24/7]",
+      "url": "https://video.streams.ovh:1936/pellatv/pellatv/master.m3u8",
+      "enabled": false
+    },
+    {
       "name": "PLP",
       "url": "https://www.hellasnet.tv/rest2.live.hn/w2r.plp/playlist.m3u8",
       "enabled": false
@@ -391,6 +386,11 @@
     {
       "name": "Star Kentrikis Elladas (1080p)",
       "url": "https://telmacosa.s.llnwi.net/starcgr/default/index.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Start TV (480p)",
+      "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
       "enabled": false
     },
     {
