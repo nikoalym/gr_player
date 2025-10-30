@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-10-29T06:40:01.162Z",
+  "lastUpdated": "2025-10-30T06:37:53.628Z",
   "totalStreams": 88,
-  "enabledStreams": 34,
+  "enabledStreams": 33,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -36,11 +36,6 @@
     {
       "name": "Corfu Channel (576p) [Not 24/7]",
       "url": "https://itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Dipso TV (720p) [Not 24/7]",
-      "url": "https://live.cast-control.eu/ekpdipso/ekpdipso/playlist.m3u8",
       "enabled": true
     },
     {
@@ -236,6 +231,11 @@
     {
       "name": "Diktyo TV (576p)",
       "url": "https://5d00db0e0fcd5.streamlock.net/7322/7322/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Dipso TV (720p) [Not 24/7]",
+      "url": "https://live.cast-control.eu/ekpdipso/ekpdipso/playlist.m3u8",
       "enabled": false
     },
     {
