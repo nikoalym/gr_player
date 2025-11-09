@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-11-08T06:12:25.643Z",
+  "lastUpdated": "2025-11-09T06:12:39.116Z",
   "totalStreams": 88,
-  "enabledStreams": 33,
+  "enabledStreams": 34,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -126,6 +126,11 @@
     {
       "name": "Pemptousia TV (1080p) [Not 24/7]",
       "url": "https://svs.itworkscdn.net/pemptousialive/pemptousia.smil/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Smile TV (360p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
       "enabled": true
     },
     {
@@ -376,11 +381,6 @@
     {
       "name": "RedMusic (720p)",
       "url": "https://eu1.vectromdigital.com:1936/redmusic/redmusic/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Smile TV (360p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
       "enabled": false
     },
     {
