@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-11-11T06:13:39.956Z",
+  "lastUpdated": "2025-11-12T06:13:26.660Z",
   "totalStreams": 88,
-  "enabledStreams": 35,
+  "enabledStreams": 36,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -34,8 +34,8 @@
       "enabled": true
     },
     {
-      "name": "Dipso TV (720p) [Not 24/7]",
-      "url": "https://live.cast-control.eu/ekpdipso/ekpdipso/playlist.m3u8",
+      "name": "Corfu Channel (576p) [Not 24/7]",
+      "url": "https://itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8",
       "enabled": true
     },
     {
@@ -174,6 +174,11 @@
       "enabled": true
     },
     {
+      "name": "Βουλή Τηλεόραση 2 (540p) [Not 24/7]",
+      "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv2.m3u8",
+      "enabled": true
+    },
+    {
       "name": "Βουλή Τηλεόραση 3 (540p) [Not 24/7]",
       "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv3.m3u8",
       "enabled": true
@@ -234,11 +239,6 @@
       "enabled": false
     },
     {
-      "name": "Corfu Channel (576p) [Not 24/7]",
-      "url": "https://itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Diavata TV (720p)",
       "url": "https://ssh101.bozztv.com/ssh101/diavatatvweb/playlist.m3u8",
       "enabled": false
@@ -246,6 +246,11 @@
     {
       "name": "Diktyo TV (576p)",
       "url": "https://5d00db0e0fcd5.streamlock.net/7322/7322/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Dipso TV (720p) [Not 24/7]",
+      "url": "https://live.cast-control.eu/ekpdipso/ekpdipso/playlist.m3u8",
       "enabled": false
     },
     {
@@ -436,11 +441,6 @@
     {
       "name": "Βουλή Τηλεόραση (540p) [Not 24/7]",
       "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Βουλή Τηλεόραση 2 (540p) [Not 24/7]",
-      "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv2.m3u8",
       "enabled": false
     }
   ]
