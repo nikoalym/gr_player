@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-11-14T06:13:28.673Z",
-  "totalStreams": 88,
-  "enabledStreams": 36,
+  "lastUpdated": "2025-11-15T06:12:34.305Z",
+  "totalStreams": 67,
+  "enabledStreams": 33,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -34,13 +34,8 @@
       "enabled": true
     },
     {
-      "name": "Corfu Channel (576p) [Not 24/7]",
-      "url": "https://itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Dipso TV (720p) [Not 24/7]",
-      "url": "https://live.cast-control.eu/ekpdipso/ekpdipso/playlist.m3u8",
+      "name": "Corfu Channel (720p)",
+      "url": "https://itv.streams.ovh:1936/corfuchannel/corfuchannel/playlist.m3u8",
       "enabled": true
     },
     {
@@ -56,11 +51,6 @@
     {
       "name": "ERT World (720p)",
       "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -134,11 +124,6 @@
       "enabled": true
     },
     {
-      "name": "Smile TV (360p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
-      "enabled": true
-    },
-    {
       "name": "STAR International (720p)",
       "url": "https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8",
       "enabled": true
@@ -194,11 +179,6 @@
       "enabled": false
     },
     {
-      "name": "APT (1080p)",
-      "url": "https://hugh.cdn.rumble.cloud/live/k5e12sb4/slot-82/fdd0-tbln/chunklist_DVR.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Astra TV (480p) [Not 24/7]",
       "url": "https://ssh101.bozztv.com/ssh101/astratv/playlist.m3u8",
       "enabled": false
@@ -221,16 +201,6 @@
     {
       "name": "BCI 24 News (720p)",
       "url": "https://eu1.vectromdigital.com:1936/bci24news/bci24news/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Blue Sky TV (576p)",
-      "url": "https://cdn1.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Center TV (1080p) [Not 24/7]",
-      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/centertv.m3u8",
       "enabled": false
     },
     {
@@ -274,23 +244,13 @@
       "enabled": false
     },
     {
-      "name": "ERT World (1080p)",
-      "url": "https://cbd537474fbad4634b64787657ff6456.msvdn.net/ertworld/ert_world_main/mainabr/playlist_dvr.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Extacy TV",
       "url": "https://fr.crystalweb.net:1936/extacytv/extacytv/playlist.m3u8",
       "enabled": false
     },
     {
-      "name": "Faros TV (540p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Flash TV (720p) [Not 24/7]",
-      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/FlashTV.m3u8",
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": false
     },
     {
@@ -304,28 +264,8 @@
       "enabled": false
     },
     {
-      "name": "Greek TV London (720p) [Not 24/7]",
-      "url": "https://vdo3.alphaserver.gr:3466/live/greektvlondonlive.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Irida TV",
       "url": "https://www.hellasnet.tv/rest2.live.hn/w2r.iri/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Irida TV (226p) [Not 24/7]",
-      "url": "https://www.hellasnet.tv/rest.live.hn/w2r.iri/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Lepanto TV (1080p) [Not 24/7]",
-      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/LePanto.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Mad World (720p)",
-      "url": "https://ellastvmax.better-than.tv/freetv/madworldtv/index.m3u8",
       "enabled": false
     },
     {
@@ -349,11 +289,6 @@
       "enabled": false
     },
     {
-      "name": "NG (720p)",
-      "url": "https://live.streams.ovh/NGradio/NGradio/playlist.m3u8",
-      "enabled": false
-    },
-    {
       "name": "NS TV (720p) [Not 24/7]",
       "url": "https://til.pp.ua:3262/live/nstv7live.m3u8",
       "enabled": false
@@ -366,11 +301,6 @@
     {
       "name": "PLP",
       "url": "https://www.hellasnet.tv/rest2.live.hn/w2r.plp/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "PLP (226p) [Not 24/7]",
-      "url": "https://www.hellasnet.tv/rest.live.hn/w2r.plp/playlist.m3u8",
       "enabled": false
     },
     {
@@ -389,13 +319,8 @@
       "enabled": false
     },
     {
-      "name": "Star Kentrikis Elladas (1080p)",
-      "url": "https://telmacosa.s.llnwi.net/starcgr/default/index.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Thessalia TV (720p) [Not 24/7]",
-      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/thessaliatv.m3u8",
+      "name": "Smile TV (360p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
       "enabled": false
     },
     {
@@ -411,36 +336,6 @@
     {
       "name": "TV 100 (576p) [Not 24/7]",
       "url": "https://live.fm100.gr/hls/tv100/index.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "TV Kosmos (576p) [Not 24/7]",
-      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/tvkosmosgr.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "TV Rodopi (720p) [Not 24/7]",
-      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/TVRodopi.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Vergina TV (1080p)",
-      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/verginachannel.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Xalastra TV (480p)",
-      "url": "https://live.cast-control.eu/xalastratv/xalastratv/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Zougla TV (720p)",
-      "url": "https://zouglacam-mdc-secure.akamaized.net/zouglalive/main/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Βουλή Τηλεόραση (540p) [Not 24/7]",
-      "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv.m3u8",
       "enabled": false
     }
   ]
