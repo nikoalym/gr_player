@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-11-20T06:13:24.672Z",
+  "lastUpdated": "2025-11-21T06:13:37.804Z",
   "totalStreams": 67,
-  "enabledStreams": 32,
+  "enabledStreams": 34,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -54,6 +54,11 @@
       "enabled": true
     },
     {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "enabled": true
+    },
+    {
       "name": "FORMedia TV (1080p)",
       "url": "https://svs.itworkscdn.net/formediatvlive/formediatv.smil/playlist.m3u8",
       "enabled": true
@@ -89,6 +94,11 @@
       "enabled": true
     },
     {
+      "name": "Nea TV (720p)",
+      "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
+      "enabled": true
+    },
+    {
       "name": "Notioi TV (1080p)",
       "url": "https://srv.streamserver.gr:3451/stream/play.m3u8",
       "enabled": true
@@ -119,6 +129,11 @@
       "enabled": true
     },
     {
+      "name": "Smile TV (360p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
+      "enabled": true
+    },
+    {
       "name": "STAR International (720p)",
       "url": "https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8",
       "enabled": true
@@ -126,11 +141,6 @@
     {
       "name": "Start TV (480p)",
       "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Syros TV1 (720p)",
-      "url": "https://eco.streams.ovh:1936/syrostv1/syrostv1/playlist.m3u8",
       "enabled": true
     },
     {
@@ -244,11 +254,6 @@
       "enabled": false
     },
     {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Galaxy (432p) [Geo-blocked]",
       "url": "https://ssh101.bozztv.com/ssh101/galaxygr/playlist.m3u8",
       "enabled": false
@@ -276,11 +281,6 @@
     {
       "name": "MGR TV (1080p) [Not 24/7]",
       "url": "https://vod.streams.ovh:3876/stream/play.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Nea TV (720p)",
-      "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
       "enabled": false
     },
     {
@@ -319,8 +319,8 @@
       "enabled": false
     },
     {
-      "name": "Smile TV (360p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
+      "name": "Syros TV1 (720p)",
+      "url": "https://eco.streams.ovh:1936/syrostv1/syrostv1/playlist.m3u8",
       "enabled": false
     },
     {
