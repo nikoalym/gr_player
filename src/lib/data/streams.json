@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-11-24T06:14:00.965Z",
+  "lastUpdated": "2025-11-25T06:14:16.156Z",
   "totalStreams": 67,
-  "enabledStreams": 34,
+  "enabledStreams": 35,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -151,6 +151,11 @@
     {
       "name": "Telekriti (720p) [Not 24/7]",
       "url": "https://neon.streams.gr:8081/telekriti/index.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Tilemousiki",
+      "url": "https://live20.bozztv.com/akamaissh101/ssh101/tilemousiki/playlist.m3u8",
       "enabled": true
     },
     {
@@ -321,11 +326,6 @@
     {
       "name": "Thraki Net TV (1080p)",
       "url": "https://cdn.onestreaming.com/thrakinettv/thrakinettv/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Tilemousiki",
-      "url": "https://live20.bozztv.com/akamaissh101/ssh101/tilemousiki/playlist.m3u8",
       "enabled": false
     },
     {
