@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-11-30T06:13:02.598Z",
+  "lastUpdated": "2025-12-01T06:15:13.979Z",
   "totalStreams": 67,
-  "enabledStreams": 35,
+  "enabledStreams": 32,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -44,18 +44,8 @@
       "enabled": true
     },
     {
-      "name": "Egnatia TV (576p)",
-      "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
-      "enabled": true
-    },
-    {
       "name": "ERT World (720p)",
       "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -126,11 +116,6 @@
     {
       "name": "Pemptousia TV (1080p) [Not 24/7]",
       "url": "https://svs.itworkscdn.net/pemptousialive/pemptousia.smil/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Smile TV (360p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
       "enabled": true
     },
     {
@@ -229,6 +214,11 @@
       "enabled": false
     },
     {
+      "name": "Egnatia TV (576p)",
+      "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
+      "enabled": false
+    },
+    {
       "name": "Ellinikos FM (720p)",
       "url": "https://til.pp.ua:3093/live/ellinikosfmlive.m3u8",
       "enabled": false
@@ -256,6 +246,11 @@
     {
       "name": "Extacy TV",
       "url": "https://fr.crystalweb.net:1936/extacytv/extacytv/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": false
     },
     {
@@ -321,6 +316,11 @@
     {
       "name": "RedMusic (720p)",
       "url": "https://eu1.vectromdigital.com:1936/redmusic/redmusic/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Smile TV (360p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
       "enabled": false
     },
     {
