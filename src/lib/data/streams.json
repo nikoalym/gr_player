@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-12-01T06:15:13.979Z",
+  "lastUpdated": "2025-12-02T06:14:28.872Z",
   "totalStreams": 67,
-  "enabledStreams": 32,
+  "enabledStreams": 33,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -41,6 +41,11 @@
     {
       "name": "Ecclesia TV (1080p)",
       "url": "https://liveopen.siliconweb.com/openTvLive/openEcclessia/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Egnatia TV (576p)",
+      "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
       "enabled": true
     },
     {
@@ -211,11 +216,6 @@
     {
       "name": "Diktyo TV (576p)",
       "url": "https://5d00db0e0fcd5.streamlock.net/7322/7322/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Egnatia TV (576p)",
-      "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
       "enabled": false
     },
     {
