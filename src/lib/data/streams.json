@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2025-12-24T06:14:55.407Z",
+  "lastUpdated": "2025-12-25T06:14:52.918Z",
   "totalStreams": 67,
-  "enabledStreams": 33,
+  "enabledStreams": 34,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -51,6 +51,11 @@
     {
       "name": "ERT World (720p)",
       "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -246,11 +251,6 @@
     {
       "name": "Extacy TV",
       "url": "https://fr.crystalweb.net:1936/extacytv/extacytv/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": false
     },
     {
