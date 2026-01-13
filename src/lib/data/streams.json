@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-12T06:16:49.123Z",
+  "lastUpdated": "2026-01-13T06:15:00.279Z",
   "totalStreams": 67,
   "enabledStreams": 33,
   "streams": [
@@ -51,6 +51,11 @@
     {
       "name": "ERT World (720p)",
       "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -141,11 +146,6 @@
     {
       "name": "Telekriti (720p) [Not 24/7]",
       "url": "https://neon.streams.gr:8081/telekriti/index.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Tilemousiki",
-      "url": "https://live20.bozztv.com/akamaissh101/ssh101/tilemousiki/playlist.m3u8",
       "enabled": true
     },
     {
@@ -249,11 +249,6 @@
       "enabled": false
     },
     {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Galaxy (432p) [Geo-blocked]",
       "url": "https://ssh101.bozztv.com/ssh101/galaxygr/playlist.m3u8",
       "enabled": false
@@ -326,6 +321,11 @@
     {
       "name": "Thraki Net TV (1080p)",
       "url": "https://cdn.onestreaming.com/thrakinettv/thrakinettv/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Tilemousiki",
+      "url": "https://live20.bozztv.com/akamaissh101/ssh101/tilemousiki/playlist.m3u8",
       "enabled": false
     },
     {
