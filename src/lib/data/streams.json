@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-01-20T06:16:33.496Z",
+  "lastUpdated": "2026-01-21T06:16:16.640Z",
   "totalStreams": 67,
-  "enabledStreams": 31,
+  "enabledStreams": 33,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -54,6 +54,11 @@
       "enabled": true
     },
     {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "enabled": true
+    },
+    {
       "name": "FORMedia TV (1080p)",
       "url": "https://svs.itworkscdn.net/formediatvlive/formediatv.smil/playlist.m3u8",
       "enabled": true
@@ -96,6 +101,11 @@
     {
       "name": "Notioi TV (1080p)",
       "url": "https://srv.streamserver.gr:3451/stream/play.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "NRG TV (720p)",
+      "url": "https://5c389faa13be3.streamlock.net:9553/onweb/live/playlist.m3u8",
       "enabled": true
     },
     {
@@ -239,11 +249,6 @@
       "enabled": false
     },
     {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Galaxy (432p) [Geo-blocked]",
       "url": "https://ssh101.bozztv.com/ssh101/galaxygr/playlist.m3u8",
       "enabled": false
@@ -276,11 +281,6 @@
     {
       "name": "Netmax TV (720p)",
       "url": "https://live.netmaxtv.com:1936/live/live/chunklist_w1671867540.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "NRG TV (720p)",
-      "url": "https://5c389faa13be3.streamlock.net:9553/onweb/live/playlist.m3u8",
       "enabled": false
     },
     {
