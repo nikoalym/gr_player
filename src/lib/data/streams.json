@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-02-03T07:02:37.923Z",
+  "lastUpdated": "2026-02-04T07:03:27.379Z",
   "totalStreams": 67,
-  "enabledStreams": 32,
+  "enabledStreams": 29,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -49,16 +49,6 @@
       "enabled": true
     },
     {
-      "name": "ERT World (720p)",
-      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
-      "enabled": true
-    },
-    {
       "name": "FORMedia TV (1080p)",
       "url": "https://svs.itworkscdn.net/formediatvlive/formediatv.smil/playlist.m3u8",
       "enabled": true
@@ -86,11 +76,6 @@
     {
       "name": "Lychnos TV (1080p)",
       "url": "https://thor.mental-media.gr:19360/imp/imp.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Nea TV (720p)",
-      "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
       "enabled": true
     },
     {
@@ -239,8 +224,18 @@
       "enabled": false
     },
     {
+      "name": "ERT World (720p)",
+      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
+      "enabled": false
+    },
+    {
       "name": "Extacy TV",
       "url": "https://fr.crystalweb.net:1936/extacytv/extacytv/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": false
     },
     {
@@ -276,6 +271,11 @@
     {
       "name": "Naftemporiki TV (1080p)",
       "url": "https://stream-188125.castr.net/631af9c016e5eace19ff9a5b/live_048998706a2311ee83b33fe7fbad252d/index.fmp4.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Nea TV (720p)",
+      "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
       "enabled": false
     },
     {
