@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-02-10T06:35:43.155Z",
-  "totalStreams": 67,
-  "enabledStreams": 30,
+  "lastUpdated": "2026-02-11T06:34:37.733Z",
+  "totalStreams": 56,
+  "enabledStreams": 32,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -51,6 +51,11 @@
     {
       "name": "ERT World (720p)",
       "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -129,6 +134,11 @@
       "enabled": true
     },
     {
+      "name": "Syros TV1 (720p)",
+      "url": "https://eco.streams.ovh:1936/syrostv1/syrostv1/playlist.m3u8",
+      "enabled": true
+    },
+    {
       "name": "Telekriti (720p) [Not 24/7]",
       "url": "https://neon.streams.gr:8081/telekriti/index.m3u8",
       "enabled": true
@@ -169,18 +179,8 @@
       "enabled": false
     },
     {
-      "name": "Baraza TV (1080p)",
-      "url": "https://eco.streams.ovh/BarazaTV/BarazarazaTV/BarazaTV/playlist.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Baraza TV (1080p) [Geo-blocked]",
       "url": "https://panik.cast-control.eu:1936/Admin_1/Admin_1/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Baraza TV Greek Music Hits (1080p)",
-      "url": "https://eco.streams.ovh/BarazaTV/BarazaTV/playlist.m3u8",
       "enabled": false
     },
     {
@@ -199,23 +199,8 @@
       "enabled": false
     },
     {
-      "name": "Diktyo TV (576p)",
-      "url": "https://5d00db0e0fcd5.streamlock.net/7322/7322/playlist.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Ellinikos FM (720p)",
       "url": "https://til.pp.ua:3093/live/ellinikosfmlive.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "ENA Channel (576p)",
-      "url": "https://storemusic.top:8222/enachannel/enachannel/enachannel/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Epiloges TV (480p)",
-      "url": "https://5d00db0e0fcd5.streamlock.net/7170/7170/playlist.m3u8",
       "enabled": false
     },
     {
@@ -224,28 +209,8 @@
       "enabled": false
     },
     {
-      "name": "Epsilon TV (720p)",
-      "url": "https://channel.streams.ovh:1936/epsilontv/epsilontv/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Extacy TV",
-      "url": "https://fr.crystalweb.net:1936/extacytv/extacytv/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Galaxy (432p) [Geo-blocked]",
       "url": "https://ssh101.bozztv.com/ssh101/galaxygr/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Gnomi TV (720p)",
-      "url": "https://channel.streams.ovh:1936/gnomitv/gnomitv/playlist.m3u8",
       "enabled": false
     },
     {
@@ -266,11 +231,6 @@
     {
       "name": "MGR TV (1080p) [Not 24/7]",
       "url": "https://vod.streams.ovh:3876/stream/play.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Naftemporiki TV (1080p)",
-      "url": "https://stream-188125.castr.net/631af9c016e5eace19ff9a5b/live_048998706a2311ee83b33fe7fbad252d/index.fmp4.m3u8",
       "enabled": false
     },
     {
@@ -299,11 +259,6 @@
       "enabled": false
     },
     {
-      "name": "Real Music TV (720p)",
-      "url": "https://livetv.streams.ovh:1936/realmusictv/realmusictv/playlist.m3u8",
-      "enabled": false
-    },
-    {
       "name": "RedMusic (720p)",
       "url": "https://eu1.vectromdigital.com:1936/redmusic/redmusic/playlist.m3u8",
       "enabled": false
@@ -314,18 +269,8 @@
       "enabled": false
     },
     {
-      "name": "Syros TV1 (720p)",
-      "url": "https://eco.streams.ovh:1936/syrostv1/syrostv1/playlist.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Thraki Net TV (1080p)",
       "url": "https://cdn.onestreaming.com/thrakinettv/thrakinettv/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Tilemousiki",
-      "url": "https://live20.bozztv.com/akamaissh101/ssh101/tilemousiki/playlist.m3u8",
       "enabled": false
     },
     {
