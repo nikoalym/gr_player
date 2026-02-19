@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-02-18T06:33:04.925Z",
+  "lastUpdated": "2026-02-19T06:32:06.799Z",
   "totalStreams": 56,
-  "enabledStreams": 30,
+  "enabledStreams": 31,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -106,6 +106,11 @@
     {
       "name": "Panik TV (1080p)",
       "url": "https://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Pella TV (576p) [Not 24/7]",
+      "url": "https://video.streams.ovh:1936/pellatv/pellatv/master.m3u8",
       "enabled": true
     },
     {
@@ -241,11 +246,6 @@
     {
       "name": "ORT (480p) [Not 24/7]",
       "url": "https://eu1.vectromdigital.com:1936/ort/ort/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Pella TV (576p) [Not 24/7]",
-      "url": "https://video.streams.ovh:1936/pellatv/pellatv/master.m3u8",
       "enabled": false
     },
     {
