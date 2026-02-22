@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-02-21T06:21:49.948Z",
+  "lastUpdated": "2026-02-22T06:24:29.961Z",
   "totalStreams": 56,
-  "enabledStreams": 31,
+  "enabledStreams": 30,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -46,11 +46,6 @@
     {
       "name": "ERT World (720p)",
       "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -206,6 +201,11 @@
     {
       "name": "Epirus TV1 (1080p)",
       "url": "https://til.pp.ua:3928/live/epiruslive.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": false
     },
     {
