@@ -1,16 +1,11 @@
 {
-  "lastUpdated": "2026-02-26T06:30:32.505Z",
+  "lastUpdated": "2026-02-27T06:26:44.491Z",
   "totalStreams": 56,
-  "enabledStreams": 29,
+  "enabledStreams": 30,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
       "url": "https://acheloostv.streamings.gr/live/stream/index.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Alert (576p) [Not 24/7]",
-      "url": "https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8",
       "enabled": true
     },
     {
@@ -46,6 +41,11 @@
     {
       "name": "ERT World (720p)",
       "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -86,6 +86,11 @@
     {
       "name": "Notioi TV (1080p)",
       "url": "https://srv.streamserver.gr:3451/stream/play.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "NRG TV (720p)",
+      "url": "https://5c389faa13be3.streamlock.net:9553/onweb/live/playlist.m3u8",
       "enabled": true
     },
     {
@@ -154,6 +159,11 @@
       "enabled": false
     },
     {
+      "name": "Alert (576p) [Not 24/7]",
+      "url": "https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "Alfa Dramas (226p) [Not 24/7]",
       "url": "https://www.hellasnet.tv/rest2.live.hn/w2r.alf/playlist.m3u8",
       "enabled": false
@@ -199,11 +209,6 @@
       "enabled": false
     },
     {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Galaxy (432p) [Geo-blocked]",
       "url": "https://ssh101.bozztv.com/ssh101/galaxygr/playlist.m3u8",
       "enabled": false
@@ -231,11 +236,6 @@
     {
       "name": "Netmax TV (720p)",
       "url": "https://live.netmaxtv.com:1936/live/live/chunklist_w1671867540.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "NRG TV (720p)",
-      "url": "https://5c389faa13be3.streamlock.net:9553/onweb/live/playlist.m3u8",
       "enabled": false
     },
     {
