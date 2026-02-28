@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-02-27T06:26:44.491Z",
+  "lastUpdated": "2026-02-28T06:17:20.202Z",
   "totalStreams": 56,
-  "enabledStreams": 30,
+  "enabledStreams": 28,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -44,11 +44,6 @@
       "enabled": true
     },
     {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
-      "enabled": true
-    },
-    {
       "name": "FORMedia TV (1080p)",
       "url": "https://svs.itworkscdn.net/formediatvlive/formediatv.smil/playlist.m3u8",
       "enabled": true
@@ -76,11 +71,6 @@
     {
       "name": "Lychnos TV (1080p)",
       "url": "https://thor.mental-media.gr:19360/imp/imp.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Nea TV (720p)",
-      "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
       "enabled": true
     },
     {
@@ -209,6 +199,11 @@
       "enabled": false
     },
     {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "Galaxy (432p) [Geo-blocked]",
       "url": "https://ssh101.bozztv.com/ssh101/galaxygr/playlist.m3u8",
       "enabled": false
@@ -231,6 +226,11 @@
     {
       "name": "MGR TV (1080p) [Not 24/7]",
       "url": "https://vod.streams.ovh:3876/stream/play.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Nea TV (720p)",
+      "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
       "enabled": false
     },
     {
