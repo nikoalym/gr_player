@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-02-28T06:17:20.202Z",
+  "lastUpdated": "2026-03-01T06:24:13.941Z",
   "totalStreams": 56,
-  "enabledStreams": 28,
+  "enabledStreams": 29,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -71,6 +71,11 @@
     {
       "name": "Lychnos TV (1080p)",
       "url": "https://thor.mental-media.gr:19360/imp/imp.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Nea TV (720p)",
+      "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
       "enabled": true
     },
     {
@@ -226,11 +231,6 @@
     {
       "name": "MGR TV (1080p) [Not 24/7]",
       "url": "https://vod.streams.ovh:3876/stream/play.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Nea TV (720p)",
-      "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
       "enabled": false
     },
     {
