@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-23T06:37:48.976Z",
+  "lastUpdated": "2026-03-24T06:33:34.659Z",
   "totalStreams": 56,
   "enabledStreams": 29,
   "streams": [
@@ -44,8 +44,8 @@
       "enabled": true
     },
     {
-      "name": "ERT World (720p)",
-      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -199,8 +199,8 @@
       "enabled": false
     },
     {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "name": "ERT World (720p)",
+      "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
       "enabled": false
     },
     {
