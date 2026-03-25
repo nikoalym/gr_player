@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-03-24T06:33:34.659Z",
+  "lastUpdated": "2026-03-25T06:33:29.934Z",
   "totalStreams": 56,
-  "enabledStreams": 29,
+  "enabledStreams": 28,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -41,11 +41,6 @@
     {
       "name": "Egnatia TV (576p)",
       "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -201,6 +196,11 @@
     {
       "name": "ERT World (720p)",
       "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": false
     },
     {
