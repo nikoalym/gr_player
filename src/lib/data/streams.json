@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-03-26T06:36:47.213Z",
+  "lastUpdated": "2026-03-27T06:37:00.165Z",
   "totalStreams": 56,
-  "enabledStreams": 28,
+  "enabledStreams": 27,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -11,11 +11,6 @@
     {
       "name": "Alert (576p) [Not 24/7]",
       "url": "https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "ART TV",
-      "url": "https://rtmp.win:3696/live/arttvgrlive.m3u8",
       "enabled": true
     },
     {
@@ -151,6 +146,11 @@
     {
       "name": "Alfa Dramas (226p) [Not 24/7]",
       "url": "https://www.hellasnet.tv/rest2.live.hn/w2r.alf/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "ART TV",
+      "url": "https://rtmp.win:3696/live/arttvgrlive.m3u8",
       "enabled": false
     },
     {
