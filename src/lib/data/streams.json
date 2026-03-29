@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28T06:30:24.879Z",
+  "lastUpdated": "2026-03-29T06:34:37.598Z",
   "totalStreams": 56,
   "enabledStreams": 28,
   "streams": [
@@ -39,6 +39,11 @@
       "enabled": true
     },
     {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "enabled": true
+    },
+    {
       "name": "FORMedia TV (1080p)",
       "url": "https://svs.itworkscdn.net/formediatvlive/formediatv.smil/playlist.m3u8",
       "enabled": true
@@ -46,11 +51,6 @@
     {
       "name": "Gnomi TV (1080p)",
       "url": "https://live.streams.ovh:8081/gnomitv/index.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Hellenic TV (720p) [Not 24/7]",
-      "url": "https://l5.cloudskep.com/hellenictv/htv/playlist.m3u8",
       "enabled": true
     },
     {
@@ -204,13 +204,13 @@
       "enabled": false
     },
     {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "name": "Galaxy (432p) [Geo-blocked]",
+      "url": "https://ssh101.bozztv.com/ssh101/galaxygr/playlist.m3u8",
       "enabled": false
     },
     {
-      "name": "Galaxy (432p) [Geo-blocked]",
-      "url": "https://ssh101.bozztv.com/ssh101/galaxygr/playlist.m3u8",
+      "name": "Hellenic TV (720p) [Not 24/7]",
+      "url": "https://l5.cloudskep.com/hellenictv/htv/playlist.m3u8",
       "enabled": false
     },
     {
