@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-05T06:36:49.814Z",
-  "totalStreams": 56,
+  "lastUpdated": "2026-04-06T06:50:42.863Z",
+  "totalStreams": 57,
   "enabledStreams": 29,
   "streams": [
     {
@@ -44,11 +44,6 @@
       "enabled": true
     },
     {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
-      "enabled": true
-    },
-    {
       "name": "FORMedia TV (1080p)",
       "url": "https://svs.itworkscdn.net/formediatvlive/formediatv.smil/playlist.m3u8",
       "enabled": true
@@ -76,6 +71,11 @@
     {
       "name": "Lychnos TV (1080p)",
       "url": "https://thor.mental-media.gr:19360/imp/imp.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Naftemporiki TV (1080p)",
+      "url": "https://telmaco.ascdn.broadpeak.io/nafteboriki/default/index.m3u8",
       "enabled": true
     },
     {
@@ -201,6 +201,11 @@
     {
       "name": "ERT World (720p)",
       "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": false
     },
     {
