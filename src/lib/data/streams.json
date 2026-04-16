@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-04-15T06:49:20.628Z",
+  "lastUpdated": "2026-04-16T06:50:22.216Z",
   "totalStreams": 57,
-  "enabledStreams": 30,
+  "enabledStreams": 28,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -29,11 +29,6 @@
       "enabled": true
     },
     {
-      "name": "Blue Sky TV (720p)",
-      "url": "https://cdn5.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8",
-      "enabled": true
-    },
-    {
       "name": "Corfu Channel (720p)",
       "url": "https://itv.streams.ovh:1936/corfuchannel/corfuchannel/playlist.m3u8",
       "enabled": true
@@ -56,11 +51,6 @@
     {
       "name": "Gnomi TV (1080p)",
       "url": "https://live.streams.ovh:8081/gnomitv/index.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Hellenic TV (720p) [Not 24/7]",
-      "url": "https://l5.cloudskep.com/hellenictv/htv/playlist.m3u8",
       "enabled": true
     },
     {
@@ -179,6 +169,11 @@
       "enabled": false
     },
     {
+      "name": "Blue Sky TV (720p)",
+      "url": "https://cdn5.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "Choice (1080p) [Not 24/7]",
       "url": "https://vod.streams.ovh:3528/stream/play.m3u8",
       "enabled": false
@@ -211,6 +206,11 @@
     {
       "name": "Galaxy (432p) [Geo-blocked]",
       "url": "https://ssh101.bozztv.com/ssh101/galaxygr/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Hellenic TV (720p) [Not 24/7]",
+      "url": "https://l5.cloudskep.com/hellenictv/htv/playlist.m3u8",
       "enabled": false
     },
     {
