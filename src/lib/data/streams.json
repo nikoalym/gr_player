@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-04-18T06:36:49.167Z",
+  "lastUpdated": "2026-04-19T06:45:42.946Z",
   "totalStreams": 57,
-  "enabledStreams": 26,
+  "enabledStreams": 28,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -36,6 +36,11 @@
     {
       "name": "Egnatia TV (576p)",
       "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -101,6 +106,11 @@
     {
       "name": "STAR International (720p)",
       "url": "https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Start TV (480p)",
+      "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
       "enabled": true
     },
     {
@@ -194,11 +204,6 @@
       "enabled": false
     },
     {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Galaxy (432p) [Geo-blocked]",
       "url": "https://ssh101.bozztv.com/ssh101/galaxygr/playlist.m3u8",
       "enabled": false
@@ -266,11 +271,6 @@
     {
       "name": "Smile TV (360p) [Geo-blocked]",
       "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Start TV (480p)",
-      "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
       "enabled": false
     },
     {
