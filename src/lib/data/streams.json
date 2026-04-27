@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T06:49:39.375Z",
+  "lastUpdated": "2026-04-27T07:07:56.817Z",
   "totalStreams": 57,
   "enabledStreams": 29,
   "streams": [
@@ -41,11 +41,6 @@
     {
       "name": "Egnatia TV (576p)",
       "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -121,6 +116,11 @@
     {
       "name": "Start TV (480p)",
       "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Syros TV1 (720p)",
+      "url": "https://eco.streams.ovh:1936/syrostv1/syrostv1/playlist.m3u8",
       "enabled": true
     },
     {
@@ -204,6 +204,11 @@
       "enabled": false
     },
     {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "Galaxy (432p) [Geo-blocked]",
       "url": "https://ssh101.bozztv.com/ssh101/galaxygr/playlist.m3u8",
       "enabled": false
@@ -266,11 +271,6 @@
     {
       "name": "Smile TV (360p) [Geo-blocked]",
       "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Syros TV1 (720p)",
-      "url": "https://eco.streams.ovh:1936/syrostv1/syrostv1/playlist.m3u8",
       "enabled": false
     },
     {
