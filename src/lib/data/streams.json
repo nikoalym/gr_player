@@ -1,11 +1,16 @@
 {
-  "lastUpdated": "2026-05-05T06:57:01.314Z",
-  "totalStreams": 51,
-  "enabledStreams": 40,
+  "lastUpdated": "2026-05-06T07:07:21.858Z",
+  "totalStreams": 54,
+  "enabledStreams": 43,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
       "url": "https://acheloostv.streamings.gr/live/stream/index.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Aigaio TV (720p)",
+      "url": "https://fr.crystalweb.net:1936/aigaiotv/aigaiotv/playlist.m3u8",
       "enabled": true
     },
     {
@@ -49,6 +54,11 @@
       "enabled": true
     },
     {
+      "name": "Center TV (1080p)",
+      "url": "https://eu1.streams.gr:8081/centertv/index.m3u8",
+      "enabled": true
+    },
+    {
       "name": "Corfu Channel (720p)",
       "url": "https://itv.streams.ovh:1936/corfuchannel/corfuchannel/playlist.m3u8",
       "enabled": true
@@ -56,6 +66,11 @@
     {
       "name": "Diavata TV (480p)",
       "url": "https://183.bozztv.com/giatv/giatv-diavatatvonline/diavatatvonline/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Dion TV (1080p)",
+      "url": "https://rtmp.win:3650/live/diontvlive.m3u8",
       "enabled": true
     },
     {
@@ -76,11 +91,6 @@
     {
       "name": "Epirus TV1 (720p)",
       "url": "https://rtmp.win:3929/live/epiruslive.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -151,6 +161,11 @@
     {
       "name": "Pella TV (576p) [Not 24/7]",
       "url": "https://video.streams.ovh:1936/pellatv/pellatv/master.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "RedMusic (1080p)",
+      "url": "https://fr.crystalweb.net:1936/redmusic/redmusic/playlist.m3u8",
       "enabled": true
     },
     {
@@ -239,13 +254,13 @@
       "enabled": false
     },
     {
-      "name": "Hellenic Parliament TV (1080p)",
-      "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/VOULITV/default/index.m3u8",
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": false
     },
     {
-      "name": "RedMusic (1080p)",
-      "url": "https://fr.crystalweb.net:1936/redmusic/redmusic/playlist.m3u8",
+      "name": "Hellenic Parliament TV (1080p)",
+      "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/VOULITV/default/index.m3u8",
       "enabled": false
     },
     {
