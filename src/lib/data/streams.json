@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-06T07:07:21.858Z",
-  "totalStreams": 54,
-  "enabledStreams": 43,
+  "lastUpdated": "2026-05-07T07:11:59.592Z",
+  "totalStreams": 56,
+  "enabledStreams": 45,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -21,6 +21,11 @@
     {
       "name": "Alpha TV (1080p)",
       "url": "https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "ART (1080p)",
+      "url": "https://1a-1791.com/live/qt9k24wa/slot-55/2k5m-t871_1080p/playlist.m3u8",
       "enabled": true
     },
     {
@@ -196,6 +201,11 @@
     {
       "name": "Top Channel (720p)",
       "url": "https://fr.crystalweb.net:1936/topchannel/topchannel/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "TV 100 (720p)",
+      "url": "https://gwebstream.net/hls/master.m3u8",
       "enabled": true
     },
     {
