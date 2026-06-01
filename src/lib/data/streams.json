@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-31T07:29:36.727Z",
+  "lastUpdated": "2026-06-01T08:03:19.140Z",
   "totalStreams": 56,
-  "enabledStreams": 40,
+  "enabledStreams": 39,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -71,11 +71,6 @@
     {
       "name": "Egnatia TV (576p)",
       "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Ellinikos FM (720p)",
-      "url": "https://rtmp.win:3603/live/ellinikosfmlive.m3u8",
       "enabled": true
     },
     {
@@ -221,6 +216,11 @@
     {
       "name": "Ecclesia TV (1080p)",
       "url": "https://liveopen.siliconweb.com/openTvLive/openEcclessia/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Ellinikos FM (720p)",
+      "url": "https://rtmp.win:3603/live/ellinikosfmlive.m3u8",
       "enabled": false
     },
     {
