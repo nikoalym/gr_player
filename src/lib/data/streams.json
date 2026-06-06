@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-05T07:42:12.772Z",
+  "lastUpdated": "2026-06-06T07:15:05.959Z",
   "totalStreams": 58,
-  "enabledStreams": 43,
+  "enabledStreams": 41,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -86,11 +86,6 @@
     {
       "name": "ENA Channel (1080p)",
       "url": "https://cdn5.smart-tv-data.com/ena/ena_channel/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -204,11 +199,6 @@
       "enabled": true
     },
     {
-      "name": "Vergina TV (1080p)",
-      "url": "https://verginanews.gr:8443/hls_live/stream1.m3u8",
-      "enabled": true
-    },
-    {
       "name": "Zougla TV (720p)",
       "url": "https://zouglacam-mdc-secure.akamaized.net/zouglalive/backup/playlist.m3u8",
       "enabled": true
@@ -269,6 +259,11 @@
       "enabled": false
     },
     {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "FORMedia TV (720p)",
       "url": "https://mercury.32bit.gr:19360/formediatv/720p.m3u8",
       "enabled": false
@@ -291,6 +286,11 @@
     {
       "name": "TRT (720p)",
       "url": "https://av.hellasnet.tv/rst/trt/main_stream.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Vergina TV (1080p)",
+      "url": "https://verginanews.gr:8443/hls_live/stream1.m3u8",
       "enabled": false
     }
   ]
