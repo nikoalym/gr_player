@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-08T07:58:59.744Z",
+  "lastUpdated": "2026-06-09T07:26:55.414Z",
   "totalStreams": 58,
-  "enabledStreams": 41,
+  "enabledStreams": 42,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -86,6 +86,11 @@
     {
       "name": "ENA Channel (1080p)",
       "url": "https://cdn5.smart-tv-data.com/ena/ena_channel/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -256,11 +261,6 @@
     {
       "name": "ERT3 (1080p)",
       "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT3/default/index.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": false
     },
     {
