@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-16T08:10:43.261Z",
+  "lastUpdated": "2026-06-17T08:05:34.202Z",
   "totalStreams": 58,
-  "enabledStreams": 38,
+  "enabledStreams": 39,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -121,6 +121,11 @@
     {
       "name": "One Channel (1080p) [Geo-blocked]",
       "url": "https://onechannel.siliconweb.com/one/stream/chunks.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Panik TV (1080p)",
+      "url": "https://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8",
       "enabled": true
     },
     {
@@ -276,11 +281,6 @@
     {
       "name": "Mesogeios TV (720p)",
       "url": "https://rtmp.win:3793/live/mesogeiostvlive.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Panik TV (1080p)",
-      "url": "https://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8",
       "enabled": false
     },
     {
