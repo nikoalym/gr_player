@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-17T08:05:34.202Z",
+  "lastUpdated": "2026-06-18T07:55:42.547Z",
   "totalStreams": 58,
-  "enabledStreams": 39,
+  "enabledStreams": 35,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -16,11 +16,6 @@
     {
       "name": "Alert (576p) [Not 24/7]",
       "url": "https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Alpha TV (1080p)",
-      "url": "https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8",
       "enabled": true
     },
     {
@@ -69,8 +64,8 @@
       "enabled": true
     },
     {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "name": "Ellinikos FM (720p)",
+      "url": "https://rtmp.win:3603/live/ellinikosfmlive.m3u8",
       "enabled": true
     },
     {
@@ -94,11 +89,6 @@
       "enabled": true
     },
     {
-      "name": "Kriti TV (1080p)",
-      "url": "https://cretetvlive.siliconweb.com/cretetv/liveabr/playlist.m3u8",
-      "enabled": true
-    },
-    {
       "name": "Naftemporiki TV (1080p)",
       "url": "https://telmaco.ascdn.broadpeak.io/nafteboriki/default/index.m3u8",
       "enabled": true
@@ -116,11 +106,6 @@
     {
       "name": "Notioi TV (1080p)",
       "url": "https://srv.streamserver.gr:3451/stream/play.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "One Channel (1080p) [Geo-blocked]",
-      "url": "https://onechannel.siliconweb.com/one/stream/chunks.m3u8",
       "enabled": true
     },
     {
@@ -151,11 +136,6 @@
     {
       "name": "Star Kentrikis Elladas (1080p)",
       "url": "https://telmaco-cdn.akamaized.net/starcgr/default/index.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Start TV (480p)",
-      "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
       "enabled": true
     },
     {
@@ -204,6 +184,11 @@
       "enabled": false
     },
     {
+      "name": "Alpha TV (1080p)",
+      "url": "https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "ART (1080p)",
       "url": "https://rumble.com/live-hls-dvr/78ixwi/playlist.m3u8",
       "enabled": false
@@ -226,11 +211,6 @@
     {
       "name": "Ecclesia TV (1080p)",
       "url": "https://liveopen.siliconweb.com/openTvLive/openEcclessia/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Ellinikos FM (720p)",
-      "url": "https://rtmp.win:3603/live/ellinikosfmlive.m3u8",
       "enabled": false
     },
     {
@@ -269,6 +249,11 @@
       "enabled": false
     },
     {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "FORMedia TV (720p)",
       "url": "https://mercury.32bit.gr:19360/formediatv/720p.m3u8",
       "enabled": false
@@ -279,8 +264,23 @@
       "enabled": false
     },
     {
+      "name": "Kriti TV (1080p)",
+      "url": "https://cretetvlive.siliconweb.com/cretetv/liveabr/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "Mesogeios TV (720p)",
       "url": "https://rtmp.win:3793/live/mesogeiostvlive.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "One Channel (1080p) [Geo-blocked]",
+      "url": "https://onechannel.siliconweb.com/one/stream/chunks.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Start TV (480p)",
+      "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
       "enabled": false
     },
     {
