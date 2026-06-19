@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-18T07:55:42.547Z",
+  "lastUpdated": "2026-06-19T08:05:55.643Z",
   "totalStreams": 58,
-  "enabledStreams": 35,
+  "enabledStreams": 38,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -16,6 +16,11 @@
     {
       "name": "Alert (576p) [Not 24/7]",
       "url": "https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Alpha TV (1080p)",
+      "url": "https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8",
       "enabled": true
     },
     {
@@ -109,6 +114,11 @@
       "enabled": true
     },
     {
+      "name": "One Channel (1080p) [Geo-blocked]",
+      "url": "https://onechannel.siliconweb.com/one/stream/chunks.m3u8",
+      "enabled": true
+    },
+    {
       "name": "Panik TV (1080p)",
       "url": "https://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8",
       "enabled": true
@@ -136,6 +146,11 @@
     {
       "name": "Star Kentrikis Elladas (1080p)",
       "url": "https://telmaco-cdn.akamaized.net/starcgr/default/index.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Start TV (480p)",
+      "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
       "enabled": true
     },
     {
@@ -181,11 +196,6 @@
     {
       "name": "Aeolos TV (1080p)",
       "url": "https://cdn.istoikona.com/aeolostv/live/playlist.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Alpha TV (1080p)",
-      "url": "https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8",
       "enabled": false
     },
     {
@@ -271,16 +281,6 @@
     {
       "name": "Mesogeios TV (720p)",
       "url": "https://rtmp.win:3793/live/mesogeiostvlive.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "One Channel (1080p) [Geo-blocked]",
-      "url": "https://onechannel.siliconweb.com/one/stream/chunks.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Start TV (480p)",
-      "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
       "enabled": false
     },
     {
