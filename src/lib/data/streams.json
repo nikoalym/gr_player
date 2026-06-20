@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-19T08:05:55.643Z",
+  "lastUpdated": "2026-06-20T07:31:39.339Z",
   "totalStreams": 58,
-  "enabledStreams": 38,
+  "enabledStreams": 39,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -91,6 +91,11 @@
     {
       "name": "Kontra Channel (1080p)",
       "url": "https://kontralive.siliconweb.com/live/kontratv/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Kriti TV (1080p)",
+      "url": "https://cretetvlive.siliconweb.com/cretetv/liveabr/playlist.m3u8",
       "enabled": true
     },
     {
@@ -271,11 +276,6 @@
     {
       "name": "Hellenic Parliament TV (1080p)",
       "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/VOULITV/default/index.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Kriti TV (1080p)",
-      "url": "https://cretetvlive.siliconweb.com/cretetv/liveabr/playlist.m3u8",
       "enabled": false
     },
     {
