@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-20T07:31:39.339Z",
+  "lastUpdated": "2026-06-21T07:50:27.175Z",
   "totalStreams": 58,
-  "enabledStreams": 39,
+  "enabledStreams": 40,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -71,6 +71,11 @@
     {
       "name": "Ellinikos FM (720p)",
       "url": "https://rtmp.win:3603/live/ellinikosfmlive.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -261,11 +266,6 @@
     {
       "name": "ERT3 (1080p)",
       "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT3/default/index.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": false
     },
     {
