@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-05T09:13:56.998Z",
-  "totalStreams": 58,
-  "enabledStreams": 39,
+  "lastUpdated": "2026-07-06T10:49:24.995Z",
+  "totalStreams": 65,
+  "enabledStreams": 46,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -74,8 +74,18 @@
       "enabled": true
     },
     {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "name": "Epiloges TV",
+      "url": "https://gra1.crystalweb.net:1936/epilogestv/epilogestv/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Euro TV (432p)",
+      "url": "https://lbgo.bozztv.com/ssh101/ssh101/eurotvlive/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "FORMedia TV",
+      "url": "https://mercury.32bit.gr:19360/formediatv/formediatv.m3u8",
       "enabled": true
     },
     {
@@ -89,6 +99,11 @@
       "enabled": true
     },
     {
+      "name": "Hlektra TV (1080p)",
+      "url": "https://live20.bozztv.com/giatv/giatv-hlektratv/hlektratv/playlist.m3u8",
+      "enabled": true
+    },
+    {
       "name": "Ionian Channel (720p) [Not 24/7]",
       "url": "https://stream.ioniantv.gr/ionian/live_abr/playlist.m3u8",
       "enabled": true
@@ -99,8 +114,23 @@
       "enabled": true
     },
     {
+      "name": "Kos TV (720p)",
+      "url": "https://eu1.streams.gr:8081/kostv/index.m3u8",
+      "enabled": true
+    },
+    {
       "name": "Kriti TV (1080p)",
       "url": "https://cretetvlive.siliconweb.com/cretetv/liveabr/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Lepanto TV",
+      "url": "https://fr.crystalweb.net:1936/lepantotv/lepantotv/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Messatida TV (720p)",
+      "url": "https://rtmp.streams.ovh:8081/mtv/index.m3u8",
       "enabled": true
     },
     {
@@ -156,6 +186,11 @@
     {
       "name": "Star Kentrikis Elladas (1080p)",
       "url": "https://telmaco-cdn.akamaized.net/starcgr/default/index.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Start TV (480p)",
+      "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
       "enabled": true
     },
     {
@@ -264,6 +299,11 @@
       "enabled": false
     },
     {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "FORMedia TV (720p)",
       "url": "https://mercury.32bit.gr:19360/formediatv/720p.m3u8",
       "enabled": false
@@ -276,11 +316,6 @@
     {
       "name": "Mesogeios TV (720p)",
       "url": "https://rtmp.win:3793/live/mesogeiostvlive.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Start TV (480p)",
-      "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
       "enabled": false
     },
     {
