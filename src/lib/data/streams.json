@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-07T09:52:12.399Z",
+  "lastUpdated": "2026-07-08T08:37:09.518Z",
   "totalStreams": 65,
-  "enabledStreams": 45,
+  "enabledStreams": 46,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -96,6 +96,11 @@
     {
       "name": "Hellenic TV (720p) [Not 24/7]",
       "url": "https://l5.cloudskep.com/hellenictv/htv/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Hlektra TV (1080p)",
+      "url": "https://live20.bozztv.com/giatv/giatv-hlektratv/hlektratv/playlist.m3u8",
       "enabled": true
     },
     {
@@ -306,11 +311,6 @@
     {
       "name": "Hellenic Parliament TV (1080p)",
       "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/VOULITV/default/index.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Hlektra TV (1080p)",
-      "url": "https://live20.bozztv.com/giatv/giatv-hlektratv/hlektratv/playlist.m3u8",
       "enabled": false
     },
     {
