@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-15T08:23:29.187Z",
-  "totalStreams": 64,
-  "enabledStreams": 44,
+  "lastUpdated": "2026-07-16T08:22:47.788Z",
+  "totalStreams": 62,
+  "enabledStreams": 45,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -21,6 +21,11 @@
     {
       "name": "Alpha TV (1080p)",
       "url": "https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Astra TV (1080p)",
+      "url": "https://server.gointernet.gr/live/livestream.m3u8",
       "enabled": true
     },
     {
@@ -239,11 +244,6 @@
       "enabled": false
     },
     {
-      "name": "Astra TV (1080p)",
-      "url": "https://server.gointernet.gr/live/livestream.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Blue Sky TV (720p)",
       "url": "https://cdn5.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8",
       "enabled": false
@@ -276,16 +276,6 @@
     {
       "name": "ERT News HD (1080p)",
       "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERTNews/default/index.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "ERT1 (1080p)",
-      "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT1/default/index.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "ERT2 (1080p)",
-      "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT2/default/index.m3u8",
       "enabled": false
     },
     {
