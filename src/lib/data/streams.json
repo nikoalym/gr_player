@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-16T08:22:47.788Z",
+  "lastUpdated": "2026-07-17T08:19:12.982Z",
   "totalStreams": 62,
-  "enabledStreams": 45,
+  "enabledStreams": 44,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -21,11 +21,6 @@
     {
       "name": "Alpha TV (1080p)",
       "url": "https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Astra TV (1080p)",
-      "url": "https://server.gointernet.gr/live/livestream.m3u8",
       "enabled": true
     },
     {
@@ -241,6 +236,11 @@
     {
       "name": "ART TV",
       "url": "https://rtmp.win:3696/live/arttvgrlive.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Astra TV (1080p)",
+      "url": "https://server.gointernet.gr/live/livestream.m3u8",
       "enabled": false
     },
     {
