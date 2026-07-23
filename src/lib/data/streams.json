@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-22T08:36:58.433Z",
+  "lastUpdated": "2026-07-23T08:38:21.397Z",
   "totalStreams": 62,
-  "enabledStreams": 43,
+  "enabledStreams": 44,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -81,6 +81,11 @@
     {
       "name": "Euro TV (432p)",
       "url": "https://lbgo.bozztv.com/ssh101/ssh101/eurotvlive/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": true
     },
     {
@@ -271,11 +276,6 @@
     {
       "name": "ERT3 (1080p)",
       "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT3/default/index.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
       "enabled": false
     },
     {
