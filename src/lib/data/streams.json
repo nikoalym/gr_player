@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-25T08:14:10.859Z",
+  "lastUpdated": "2026-07-26T08:33:32.684Z",
   "totalStreams": 62,
-  "enabledStreams": 42,
+  "enabledStreams": 41,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -101,11 +101,6 @@
     {
       "name": "Kontra Channel (1080p)",
       "url": "https://kontralive.siliconweb.com/live/kontratv/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Kos TV (720p)",
-      "url": "https://eu1.streams.gr:8081/kostv/index.m3u8",
       "enabled": true
     },
     {
@@ -286,6 +281,11 @@
     {
       "name": "Hellenic Parliament TV (1080p)",
       "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/VOULITV/default/index.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Kos TV (720p)",
+      "url": "https://eu1.streams.gr:8081/kostv/index.m3u8",
       "enabled": false
     },
     {
