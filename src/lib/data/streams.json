@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-27T10:00:41.956Z",
+  "lastUpdated": "2026-07-28T08:43:53.201Z",
   "totalStreams": 62,
-  "enabledStreams": 43,
+  "enabledStreams": 41,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -69,6 +69,11 @@
       "enabled": true
     },
     {
+      "name": "Ellinikos FM (720p)",
+      "url": "https://rtmp.win:3603/live/ellinikosfmlive.m3u8",
+      "enabled": true
+    },
+    {
       "name": "Epiloges TV",
       "url": "https://gra1.crystalweb.net:1936/epilogestv/epilogestv/playlist.m3u8",
       "enabled": true
@@ -79,18 +84,8 @@
       "enabled": true
     },
     {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
-      "enabled": true
-    },
-    {
       "name": "Gnomi TV (1080p)",
       "url": "https://live.streams.ovh:8081/gnomitv/index.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Hlektra TV (1080p)",
-      "url": "https://live20.bozztv.com/giatv/giatv-hlektratv/hlektratv/playlist.m3u8",
       "enabled": true
     },
     {
@@ -189,11 +184,6 @@
       "enabled": true
     },
     {
-      "name": "Top Channel (720p)",
-      "url": "https://fr.crystalweb.net:1936/topchannel/topchannel/playlist.m3u8",
-      "enabled": true
-    },
-    {
       "name": "TV 100 (720p)",
       "url": "https://gwebstream.net/hls/master.m3u8",
       "enabled": true
@@ -249,11 +239,6 @@
       "enabled": false
     },
     {
-      "name": "Ellinikos FM (720p)",
-      "url": "https://rtmp.win:3603/live/ellinikosfmlive.m3u8",
-      "enabled": false
-    },
-    {
       "name": "ENA Channel (1080p)",
       "url": "https://cdn5.smart-tv-data.com/ena/ena_channel/playlist.m3u8",
       "enabled": false
@@ -279,6 +264,11 @@
       "enabled": false
     },
     {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "FORMedia TV",
       "url": "https://mercury.32bit.gr:19360/formediatv/formediatv.m3u8",
       "enabled": false
@@ -294,6 +284,11 @@
       "enabled": false
     },
     {
+      "name": "Hlektra TV (1080p)",
+      "url": "https://live20.bozztv.com/giatv/giatv-hlektratv/hlektratv/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "Lepanto TV",
       "url": "https://fr.crystalweb.net:1936/lepantotv/lepantotv/playlist.m3u8",
       "enabled": false
@@ -306,6 +301,11 @@
     {
       "name": "Thraki Net TV (1080p)",
       "url": "https://cdn.onestreaming.com/thrakinettv/thrakinettv/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Top Channel (720p)",
+      "url": "https://fr.crystalweb.net:1936/topchannel/topchannel/playlist.m3u8",
       "enabled": false
     },
     {
