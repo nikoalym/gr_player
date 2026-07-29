@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T08:43:53.201Z",
+  "lastUpdated": "2026-07-29T08:48:35.244Z",
   "totalStreams": 62,
   "enabledStreams": 41,
   "streams": [
@@ -119,11 +119,6 @@
       "enabled": true
     },
     {
-      "name": "Nea TV (720p)",
-      "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
-      "enabled": true
-    },
-    {
       "name": "Netmax TV (720p)",
       "url": "https://es1.crystalweb.net:1936/netmaxtv/netmaxtv/playlist.m3u8",
       "enabled": true
@@ -181,6 +176,11 @@
     {
       "name": "Telekriti (720p) [Not 24/7]",
       "url": "https://neon.streams.gr:8081/telekriti/index.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Top Channel (720p)",
+      "url": "https://fr.crystalweb.net:1936/topchannel/topchannel/playlist.m3u8",
       "enabled": true
     },
     {
@@ -299,13 +299,13 @@
       "enabled": false
     },
     {
-      "name": "Thraki Net TV (1080p)",
-      "url": "https://cdn.onestreaming.com/thrakinettv/thrakinettv/playlist.m3u8",
+      "name": "Nea TV (720p)",
+      "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
       "enabled": false
     },
     {
-      "name": "Top Channel (720p)",
-      "url": "https://fr.crystalweb.net:1936/topchannel/topchannel/playlist.m3u8",
+      "name": "Thraki Net TV (1080p)",
+      "url": "https://cdn.onestreaming.com/thrakinettv/thrakinettv/playlist.m3u8",
       "enabled": false
     },
     {
