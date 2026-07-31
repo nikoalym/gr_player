@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-30T08:36:48.868Z",
+  "lastUpdated": "2026-07-31T08:57:09.299Z",
   "totalStreams": 62,
-  "enabledStreams": 42,
+  "enabledStreams": 43,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -126,6 +126,11 @@
     {
       "name": "Naftemporiki TV (1080p)",
       "url": "https://telmaco.ascdn.broadpeak.io/nafteboriki/default/index.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Nea TV (720p)",
+      "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
       "enabled": true
     },
     {
@@ -291,11 +296,6 @@
     {
       "name": "Mesogeios TV (720p)",
       "url": "https://rtmp.win:3793/live/mesogeiostvlive.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Nea TV (720p)",
-      "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
       "enabled": false
     },
     {
