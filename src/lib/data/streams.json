@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-10T12:13:51.278Z",
+  "lastUpdated": "2026-10-11T12:28:19.674Z",
   "totalStreams": 57,
-  "enabledStreams": 39,
+  "enabledStreams": 42,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -24,6 +24,11 @@
       "enabled": true
     },
     {
+      "name": "Astra TV (1080p)",
+      "url": "https://server.gointernet.gr/live/livestream.m3u8",
+      "enabled": true
+    },
+    {
       "name": "Baraza TV (1080p)",
       "url": "https://eco.streams.ovh:8081/barazatv/tracks-v1a1/mono.m3u8",
       "enabled": true
@@ -36,6 +41,11 @@
     {
       "name": "Baraza TV Relaxing (720p)",
       "url": "https://rtmp.streams.ovh:1936/barazarelax/barazarelax/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Blue Sky TV (720p)",
+      "url": "https://cdn5.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8",
       "enabled": true
     },
     {
@@ -66,6 +76,11 @@
     {
       "name": "Ellinikos FM (720p)",
       "url": "https://rtmp.win:3603/live/ellinikosfmlive.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "ENA Channel (1080p)",
+      "url": "https://cdn5.smart-tv-data.com/ena/ena_channel/playlist.m3u8",
       "enabled": true
     },
     {
@@ -214,23 +229,8 @@
       "enabled": false
     },
     {
-      "name": "Astra TV (1080p)",
-      "url": "https://server.gointernet.gr/live/livestream.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Blue Sky TV (720p)",
-      "url": "https://cdn5.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Dion TV (1080p)",
       "url": "https://rtmp.win:3650/live/diontvlive.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "ENA Channel (1080p)",
-      "url": "https://cdn5.smart-tv-data.com/ena/ena_channel/playlist.m3u8",
       "enabled": false
     },
     {
