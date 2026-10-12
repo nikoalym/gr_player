@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-11T12:28:19.674Z",
+  "lastUpdated": "2026-10-12T14:59:51.519Z",
   "totalStreams": 57,
-  "enabledStreams": 42,
+  "enabledStreams": 41,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -21,11 +21,6 @@
     {
       "name": "Alpha TV (1080p)",
       "url": "https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Astra TV (1080p)",
-      "url": "https://server.gointernet.gr/live/livestream.m3u8",
       "enabled": true
     },
     {
@@ -94,11 +89,6 @@
       "enabled": true
     },
     {
-      "name": "Faros TV2 (480p) [Geo-blocked]",
-      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
-      "enabled": true
-    },
-    {
       "name": "Gnomi TV (1080p)",
       "url": "https://live.streams.ovh:8081/gnomitv/index.m3u8",
       "enabled": true
@@ -126,6 +116,11 @@
     {
       "name": "Lepanto TV",
       "url": "https://fr.crystalweb.net:1936/lepantotv/lepantotv/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Messatida TV (720p)",
+      "url": "https://rtmp.streams.ovh:8081/mtv/index.m3u8",
       "enabled": true
     },
     {
@@ -229,6 +224,11 @@
       "enabled": false
     },
     {
+      "name": "Astra TV (1080p)",
+      "url": "https://server.gointernet.gr/live/livestream.m3u8",
+      "enabled": false
+    },
+    {
       "name": "Dion TV (1080p)",
       "url": "https://rtmp.win:3650/live/diontvlive.m3u8",
       "enabled": false
@@ -254,6 +254,11 @@
       "enabled": false
     },
     {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "Hellenic Parliament TV (1080p)",
       "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/VOULITV/default/index.m3u8",
       "enabled": false
@@ -261,11 +266,6 @@
     {
       "name": "Mesogeios TV (720p)",
       "url": "https://rtmp.win:3793/live/mesogeiostvlive.m3u8",
-      "enabled": false
-    },
-    {
-      "name": "Messatida TV (720p)",
-      "url": "https://rtmp.streams.ovh:8081/mtv/index.m3u8",
       "enabled": false
     },
     {
