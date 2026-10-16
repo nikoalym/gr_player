@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T11:11:07.940Z",
+  "lastUpdated": "2026-10-16T11:05:36.454Z",
   "totalStreams": 57,
   "enabledStreams": 42,
   "streams": [
@@ -21,6 +21,11 @@
     {
       "name": "Alpha TV (1080p)",
       "url": "https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Astra TV (1080p)",
+      "url": "https://server.gointernet.gr/live/livestream.m3u8",
       "enabled": true
     },
     {
@@ -124,11 +129,6 @@
       "enabled": true
     },
     {
-      "name": "Messatida TV (720p)",
-      "url": "https://rtmp.streams.ovh:8081/mtv/index.m3u8",
-      "enabled": true
-    },
-    {
       "name": "Naftemporiki TV (1080p)",
       "url": "https://telmaco.ascdn.broadpeak.io/nafteboriki/default/index.m3u8",
       "enabled": true
@@ -229,11 +229,6 @@
       "enabled": false
     },
     {
-      "name": "Astra TV (1080p)",
-      "url": "https://server.gointernet.gr/live/livestream.m3u8",
-      "enabled": false
-    },
-    {
       "name": "Dion TV (1080p)",
       "url": "https://rtmp.win:3650/live/diontvlive.m3u8",
       "enabled": false
@@ -266,6 +261,11 @@
     {
       "name": "Mesogeios TV (720p)",
       "url": "https://rtmp.win:3793/live/mesogeiostvlive.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Messatida TV (720p)",
+      "url": "https://rtmp.streams.ovh:8081/mtv/index.m3u8",
       "enabled": false
     },
     {
