@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-02T15:18:44.560Z",
+  "lastUpdated": "2026-11-03T13:55:50.642Z",
   "totalStreams": 57,
-  "enabledStreams": 43,
+  "enabledStreams": 40,
   "streams": [
     {
       "name": "Acheloos TV (576p)",
@@ -119,16 +119,6 @@
       "enabled": true
     },
     {
-      "name": "Lepanto TV",
-      "url": "https://fr.crystalweb.net:1936/lepantotv/lepantotv/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Messatida TV (720p)",
-      "url": "https://rtmp.streams.ovh:8081/mtv/index.m3u8",
-      "enabled": true
-    },
-    {
       "name": "Naftemporiki TV (1080p)",
       "url": "https://telmaco.ascdn.broadpeak.io/nafteboriki/default/index.m3u8",
       "enabled": true
@@ -186,11 +176,6 @@
     {
       "name": "Syros TV1 (720p)",
       "url": "https://eco.streams.ovh:1936/syrostv1/syrostv1/playlist.m3u8",
-      "enabled": true
-    },
-    {
-      "name": "Top Channel (720p)",
-      "url": "https://fr.crystalweb.net:1936/topchannel/topchannel/playlist.m3u8",
       "enabled": true
     },
     {
@@ -269,8 +254,18 @@
       "enabled": false
     },
     {
+      "name": "Lepanto TV",
+      "url": "https://fr.crystalweb.net:1936/lepantotv/lepantotv/playlist.m3u8",
+      "enabled": false
+    },
+    {
       "name": "Mesogeios TV (720p)",
       "url": "https://rtmp.win:3793/live/mesogeiostvlive.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Messatida TV (720p)",
+      "url": "https://rtmp.streams.ovh:8081/mtv/index.m3u8",
       "enabled": false
     },
     {
@@ -281,6 +276,11 @@
     {
       "name": "Thraki Net TV (1080p)",
       "url": "https://cdn.onestreaming.com/thrakinettv/thrakinettv/playlist.m3u8",
+      "enabled": false
+    },
+    {
+      "name": "Top Channel (720p)",
+      "url": "https://fr.crystalweb.net:1936/topchannel/topchannel/playlist.m3u8",
       "enabled": false
     },
     {
